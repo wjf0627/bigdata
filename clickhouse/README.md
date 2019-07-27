@@ -1,10 +1,10 @@
 
 ### Usage
 
-[![CKExample](https://github.com/wjf0627/bigdata/blob/master/clickhouse/src/main/scala/com/jinfeng/clickhouse/CKExample.scala)](https://github.com/wjf0627/bigdata/blob/master/clickhouse/src/main/scala/com/jinfeng/clickhouse/CKExample.scala)
+[CKExample](https://github.com/wjf0627/bigdata/blob/master/clickhouse/src/main/scala/com/jinfeng/clickhouse/CKExample.scala)
 
 ### 核心代码
-[![DataFrameExt](https://github.com/wjf0627/bigdata/edit/master/clickhouse/src/main/scala/com/jinfeng/clickhouse/util/DataFrameExt.scala)](https://github.com/wjf0627/bigdata/edit/master/clickhouse/src/main/scala/com/jinfeng/clickhouse/util/DataFrameExt.scala)
+[DataFrameExt](https://github.com/wjf0627/bigdata/edit/master/clickhouse/src/main/scala/com/jinfeng/clickhouse/util/DataFrameExt.scala)
 
 ### 创建表
 ```scala
