@@ -1,7 +1,8 @@
 package com.jinfeng.clickhouse.util
 
-import org.apache.spark.sql.types._
+import com.jinfeng.clickhouse.util.ClickHouseResultSetExt._
 import com.jinfeng.clickhouse.util.Utils._
+import org.apache.spark.sql.types._
 import ru.yandex.clickhouse.ClickHouseDataSource
 
 import scala.collection.mutable
@@ -77,7 +78,13 @@ case class DataFrameExt(df: org.apache.spark.sql.DataFrame) extends Serializable
       // explicit closing
       using(targetHostDs.getConnection) { conn =>
 
-        val insertStatementSql = generateInsertStatment(schema, dbName, clusterTableName, partitionColumnNames)
+        val descSql = s"desc $dbName.$tableName"
+        val descStatement = conn.prepareStatement(descSql)
+
+        val results = descStatement.executeQuery()
+        val columns = results.map(x => x.getString("name")).reverse
+
+        val insertStatementSql = generateInsertStatment(schema, dbName, clusterTableName, columns)
         val statement = conn.prepareStatement(insertStatementSql)
 
         var totalInsert = 0
@@ -142,15 +149,17 @@ case class DataFrameExt(df: org.apache.spark.sql.DataFrame) extends Serializable
       .map(x => (x._1, x._2.map(_._2).sum))
   }
 
-  private def generateInsertStatment(schema: org.apache.spark.sql.types.StructType, dbName: String, tableName: String, partitionColumnNames: Seq[String]) = {
+  private def generateInsertStatment(schema: org.apache.spark.sql.types.StructType, dbName: String, tableName: String, columns: Seq[String]) = {
+    /*
     var columns: scala.List[String] = scala.List()
     for (i <- partitionColumnNames.indices) {
       columns = columns.::(s"${partitionColumnNames(i)}")
     }
     columns = columns.reverse
     columns = schema.map(f => f.name).toList.:::(columns)
+     */
     //  val columns = partitionColumnName :: schema.map(f => f.name).toList
-    val vals = 1 to (columns.length) map (i => "?")
+    val vals = 1 to columns.length map (i => "?")
     s"INSERT INTO $dbName.$tableName (${columns.mkString(",")}) VALUES (${vals.mkString(",")})"
   }
 
@@ -241,7 +250,8 @@ case class DataFrameExt(df: org.apache.spark.sql.DataFrame) extends Serializable
     case IntegerType => "Int32"
     case StringType => "String"
     case BooleanType => "UInt8"
-    case ArrayType(IntegerType, false) => "Array(Int32)"
+    case ArrayType(IntegerType, true) => "Array(Int32)"
+    case ArrayType(StringType, true) => "Array(String)"
     case _ => "unknown"
   }
 
