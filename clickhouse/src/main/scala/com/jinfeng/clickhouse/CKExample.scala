@@ -42,7 +42,7 @@ class CKExample extends Serializable {
       import spark.implicits._
       // define clickhouse datasource
       implicit val clickhouseDataSource = ClickHouseConnectionFactory.get(host)
-      val df = sc.parallelize(1 to 10000000).map(f = _ => {
+      val df = sc.parallelize(1 to 1000).map(f = _ => {
         Device("" + UUID.randomUUID(), Array(
           random.nextInt(100), random.nextInt(100), random.nextInt(100), random.nextInt(100), random.nextInt(100), random.nextInt(100),
           random.nextInt(100), random.nextInt(100), random.nextInt(100), random.nextInt(100), random.nextInt(100), random.nextInt(100),
