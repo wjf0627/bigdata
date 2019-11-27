@@ -245,14 +245,18 @@ case class DataFrameExt(df: org.apache.spark.sql.DataFrame) extends Serializable
 
   private def sparkType2ClickHouseType(sparkType: org.apache.spark.sql.types.DataType) = sparkType match {
     case LongType => "Int64"
+    case DateType => "Date"
     case DoubleType => "Float64"
     case FloatType => "Float32"
     case IntegerType => "Int32"
     case StringType => "String"
     case BooleanType => "UInt8"
     case ArrayType(IntegerType, true) => "Array(Int32)"
+    case ArrayType(IntegerType, false) => "Array(Int32)"
     case ArrayType(StringType, true) => "Array(String)"
+    case ArrayType(StringType, false) => "Array(String)"
     case _ => "unknown"
+      println("unknownType ==>> " + sparkType)
   }
 
 }
