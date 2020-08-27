@@ -19,7 +19,7 @@
         </dependency>
         <dependency>
             <groupId>org.apache.kafka</groupId>
-            <artifactId>kafka_2.11</artifactId>
+            <artifactId>kafka_${scala.sdk.version}</artifactId>
         </dependency>
         <dependency>
             <groupId>com.alibaba</groupId>
