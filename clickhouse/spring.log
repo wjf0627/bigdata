@@ -1,0 +1,33 @@
+2019-07-19 18:36:08.550  INFO 68620 --- [main] c.j.c.ClickhouseServerApplication        : Starting ClickhouseServerApplication on wangjf with PID 68620 (/Users/wangjf/Workspace/Project/wangjf/clickhouse_server/target/classes started by wangjf in /Users/wangjf/Workspace/Project/wangjf)
+2019-07-19 18:36:08.554  INFO 68620 --- [main] c.j.c.ClickhouseServerApplication        : No active profile set, falling back to default profiles: default
+2019-07-19 18:36:09.102  WARN 68620 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.jinfeng.clickhouse_server.mapper]' package. Please check your configuration.
+2019-07-19 18:36:09.257  WARN 68620 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.jinfeng.clickhouse_server]' package. Please check your configuration.
+2019-07-19 18:36:09.832  INFO 68620 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8089 (http)
+2019-07-19 18:36:09.858  INFO 68620 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-19 18:36:09.859  INFO 68620 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-19 18:36:09.949  INFO 68620 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-19 18:36:09.950  INFO 68620 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1354 ms
+2019-07-19 18:36:09.995  WARN 68620 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'baseMysqlCRUDManager': Unsatisfied dependency expressed through field 'baseMysqlCRUDMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.gitee.sunchenbin.mybatis.actable.dao.common.BaseMysqlCRUDMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2019-07-19 18:36:09.997  INFO 68620 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-07-19 18:36:10.007  INFO 68620 --- [main] ru.yandex.clickhouse.ClickHouseDriver    : Driver registered
+2019-07-19 18:36:10.017  INFO 68620 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-07-19 18:36:10.115 ERROR 68620 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field baseMysqlCRUDMapper in com.gitee.sunchenbin.mybatis.actable.manager.common.BaseMysqlCRUDManagerImpl required a bean of type 'com.gitee.sunchenbin.mybatis.actable.dao.common.BaseMysqlCRUDMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.gitee.sunchenbin.mybatis.actable.dao.common.BaseMysqlCRUDMapper' in your configuration.
+

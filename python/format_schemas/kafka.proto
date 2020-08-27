@@ -1,0 +1,6 @@
+syntax = "proto2";
+
+message KeyValuePair {
+    required uint64 key = 1;
+    required string value = 2;
+}

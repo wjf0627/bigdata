@@ -4,6 +4,7 @@ import com.alibaba.fastjson.{JSON, JSONObject}
 import com.jinfeng.spark.constant.Constant
 import com.jinfeng.spark.utils.BigDataSession
 import org.apache.hadoop.fs.{FileSystem, Path}
+import org.apache.hadoop.io.compress.GzipCodec
 import org.apache.spark.sql.SaveMode
 
 import scala.collection.mutable
@@ -52,27 +53,39 @@ class SparkExample {
 
       //  FileSystem.get(spark.sparkContext.hadoopConfiguration).delete(new Path(output), true)
 
-      val sql1 =
+
+      val sql2 =
         """
-          |SELECT * FROM dwh.t1
+          |SELECT t.id id,t.name name, m.score score FROM dwh.t1 t
+          | JOIN dwh.t2 m ON t.id = m.id
           |""".stripMargin
 
-      val sql_df = spark.sql(sql1).toDF()
+      val sql1 =
+        """
+          |SELECT * FROM dwh.t3
+          |""".stripMargin
+      val sql_df = spark.sql(sql1)
 
-      FileSystem.get(spark.sparkContext.hadoopConfiguration).delete(new Path(output + "/sql_df"), true)
-      sql_df.write.mode(SaveMode.Overwrite).orc(output + "/sql_df")
-      /*
-      val sql2 =
+      //  sql_df.write.mode(SaveMode.Overwrite).insertInto("dwh.t3")
+      //  val sql_df_1 = spark.read.orc(output + "/sql_df")
+      FileSystem.get(spark.sparkContext.hadoopConfiguration).delete(new Path(output + "/txt"), true)
+      sql_df.write.mode(SaveMode.Overwrite).insertInto("dwh.t6")
+      //  .coalesce(1).rdd.saveAsTextFile(output + "/txt", classOf[GzipCodec])
+      //  .write.mode(SaveMode.Overwrite).parquet(output + "/parquet")
+
+      //  .mode(SaveMode.Overwrite).insertInto("dwh.t6")
+      val sql3 =
         """
           |SELECT * FROM dwh.t5
           |""".stripMargin
 
-      spark.sql(sql1).union(spark.sql(sql2))
-        .coalesce(1).write.mode(SaveMode.Overwrite).insertInto("dwh.t1")
-      */
-      FileSystem.get(spark.sparkContext.hadoopConfiguration).delete(new Path(output + "/df"), true)
-      df.write.mode(SaveMode.Overwrite).orc(output + "/df")
+      //  spark.sql(sql1).union(spark.sql(sql3))
+      //  .coalesce(1).write.mode(SaveMode.Overwrite).insertInto("dwh.t1")
 
+      FileSystem.get(spark.sparkContext.hadoopConfiguration).delete(new Path(output + "/parquet_1"), true)
+      spark.sql(sql3).write.mode(SaveMode.Overwrite).parquet(output + "/parquet_1")
+
+      //  Thread.sleep(120000)
     } finally {
       if (spark != null) {
         spark.stop()

@@ -8,13 +8,13 @@ import com.jinfeng.clickhouse.util.ClickHouseSparkExt._
 import org.apache.spark.sql.SparkSession
 
 /**
-  * @package: com.jinfeng.clickhouse
-  * @author: wangjf
-  * @date: 2019/5/20
-  * @time: 下午3:16
-  * @email: wjf20110627@163.com
-  * @phone: 152-1062-7698
-  */
+ * @package: com.jinfeng.clickhouse
+ * @author: wangjf
+ * @date: 2019/5/20
+ * @time: 下午3:16
+ * @email: wjf20110627@163.com
+ * @phone: 152-1062-7698
+ */
 class CKExample extends Serializable {
 
   protected def run(args: Array[String]) {
@@ -32,28 +32,31 @@ class CKExample extends Serializable {
       sc.hadoopConfiguration.set("dfs.client.socket-timeout", "300000")
       // clickhouse params
       val host = "localhost"
-      val db = "wangjf"
-      val tableName = "device_set"
+      val db = "dwh"
+      val tableName = "audience_merge"
       //  cluster configuration must be defined in config.xml (clickhouse config)
       //  val clusterName = Some("localhost"): Option[String]
       val clusterName = None
+
 
       val random = new Random
       import spark.implicits._
       // define clickhouse datasource
       implicit val clickhouseDataSource = ClickHouseConnectionFactory.get(host)
-      val df = sc.parallelize(1 to 1000).map(f = _ => {
-        Device("" + UUID.randomUUID(), Array(
-          random.nextInt(100), random.nextInt(100), random.nextInt(100), random.nextInt(100), random.nextInt(100), random.nextInt(100),
-          random.nextInt(100), random.nextInt(100), random.nextInt(100), random.nextInt(100), random.nextInt(100), random.nextInt(100),
-          random.nextInt(100), random.nextInt(100), random.nextInt(100), random.nextInt(100), random.nextInt(100), random.nextInt(100),
-          random.nextInt(100), random.nextInt(100), random.nextInt(100), random.nextInt(100), random.nextInt(100), random.nextInt(100),
-          random.nextInt(100), random.nextInt(100), random.nextInt(100), random.nextInt(100), random.nextInt(100), random.nextInt(100)))
+      val df = sc.parallelize(1 to 2000000).map(f = _ => {
+        Device("" + UUID.randomUUID(),
+          Set(random.nextInt(10), random.nextInt(10), random.nextInt(10), random.nextInt(10), random.nextInt(10), random.nextInt(10))
+        )
       }).toDF()
 
-      df.createClickHouseDb(db, clusterName)
-      df.createClickHouseTable(db, tableName, Seq("dt"), Seq("device_id", "offer_id"), Seq(), clusterName)
-      df.saveToClickHouse(db, tableName, Seq("2019-07-15"), Seq("dt"), clusterName)
+      val date_time = "2020081410"
+      val date = date_time.substring(0, 8)
+      val hour = date_time.substring(8, 10)
+      println(date)
+      println(hour)
+      //  df.createClickHouseDb(db, clusterName)
+      //  df.createClickHouseTable(db, tableName, Seq("dt"), Seq("device_id", "offer_id"), Seq(), clusterName)
+      df.saveToClickHouse(db, tableName, Seq("2020-08-15", "10"), Seq("dt", "hour"), clusterName)
 
     } finally {
       if (spark != null) {

@@ -188,3 +188,4 @@ def createClickHouseTable(dbName: String, tableName: String, partitionColumnName
       .map(x => (x._1, x._2.map(_._2).sum))
   }
 ```
+

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+option java_package = "com.jinfeng.clickhouse.pojo";
+option java_outer_classname = "KeyValue";
+message KeyValuePair {
+    uint64 key = 1;
+    string value = 2;
+}

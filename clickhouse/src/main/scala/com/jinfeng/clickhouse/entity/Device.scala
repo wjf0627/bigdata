@@ -8,4 +8,4 @@ package com.jinfeng.clickhouse.entity
   * @email: wjf20110627@163.com
   * @phone: 152-1062-7698
   */
-case class Device(device_id: String, offer_id: Array[Int]) extends Serializable
+case class Device(device_id: String, offer_id: Set[Int]) extends Serializable

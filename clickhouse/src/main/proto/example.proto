@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "com.jinfeng.clickhouse.pojo";
+option java_outer_classname = "ExampleLog";
+message Example {
+    uint64 level = 1;
+    string userId = 2;
+    uint64 score = 3;
+    string timestamp = 4;
+    string name = 5;
+}
