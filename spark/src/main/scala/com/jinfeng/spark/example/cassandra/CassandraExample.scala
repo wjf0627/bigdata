@@ -2,9 +2,11 @@ package com.jinfeng.spark.example.cassandra
 
 import java.io.Serializable
 import java.util
-import com.datastax.spark.connector._
 
+import com.datastax.spark.connector._
 import org.apache.spark.sql.SparkSession
+
+import scala.collection.mutable
 
 /**
   * @package: com.jinfeng.spark.example.cassandra
@@ -45,12 +47,14 @@ class CassandraExample extends Serializable {
       //  df.saveToCassandra("dmp", "device_target")
       //  df.saveToCassandra("test", "device")
 
+      /*
       val address1 = Address(city = "Oakland", street = "Broadway", number = 3400)
       val address2 = Address(city = "Oakland", street = "Broadway", number = 3400)
       val list:java.util.ArrayList[Address] = new util.ArrayList[Address]()
       list.add(address1)
       list.add(address2)
       sc.parallelize(Seq(CompanyRow("Paul", list))).saveToCassandra("test", "companies")
+      */
 
       //  , writeConf = WriteConf(ttl = TTLOption.constant(100)))
       //  val b = System.currentTimeMillis
@@ -59,8 +63,8 @@ class CassandraExample extends Serializable {
       //  println(rdd.first)
       //  println(rdd.map(_.getInt("value")).sum)
 
-      //  val collection = sc.parallelize(Seq(("key3", 3), ("key4", 4)))
-      //  collection.saveToCassandra("test", "kv", SomeColumns("key", "value"))
+      val collection = sc.parallelize(Seq(("key3", Set("A")), ("key4", new java.util.HashSet[String]())))
+      collection.saveToCassandra("dmp", "recent_device_region", SomeColumns("devid", "region"))
 
     } finally {
       if (spark != null) {

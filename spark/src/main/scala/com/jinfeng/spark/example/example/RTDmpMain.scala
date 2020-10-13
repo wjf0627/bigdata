@@ -1,8 +1,7 @@
 package com.jinfeng.spark.example.example
 
+import com.alibaba.fastjson.{JSONArray, JSONObject}
 import org.apache.spark.sql.SparkSession
-
-import scala.collection.mutable
 
 /**
  * @package: com.jinfeng.spark.example.example
@@ -20,23 +19,36 @@ class RTDmpMain {
       .appName("ThreadSpark")
       .config("spark.rdd.compress", "true")
       .config("spark.io.compression.codec", "lz4")
-      .config("spark.driver.allowMultipleContexts", "true")
       .getOrCreate()
     val sc = spark.sparkContext
 
+    val rdd = sc.parallelize(List((1, 1), (3, 1), (4, 1), (1, 1), (3, 1), (4, 1), (1, 1), (3, 1), (4, 1), (1, 1), (3, 1), (4, 1), (1, 1), (3, 1)))
+      .combineByKey(
+        (v: Int) => v,
+        (c: Int, v: Int) => c + v,
+        (c1: Int, c2: Int) => c1 + c2
+      )
+    rdd.foreach(println)
+    //  rdd.take(10).foreach(println)
+    //  val map = new mutable.HashMap[Int, Int]()
     /*
-    val rdd = sc.parallelize(List((1, 2, 3), (3, 4, 5), (4, 5, 6)))
-    rdd.take(10).foreach(println)
-    val map = new mutable.HashMap[Int, Int]()
+    val jsonArray = new JSONArray()
     val df = rdd.map(r => {
-      map.put(r._1, r._3)
+      //  val jsonObject = new JSONObject()
+      //  jsonObject.put(String.valueOf(r._1), r._3)
+      //  jsonArray.add(jsonObject)
       (r._1, r._2)
+    }).cache()
+    df.collect().foreach(r=>{
+      val jsonObject = new JSONObject()
+      jsonObject.put(String.valueOf(r._1), r._2)
+      jsonArray.add(jsonObject)
     })
 
-    println(map.size)
+    println(jsonArray.size)
     */
-    val rdd = sc.textFile("/Users/wangjf/Workspace/data/device/*/*")
-    rdd.take(10).foreach(println)
+
+    //  df.take(10).foreach(println)
     sc.stop()
   }
 }

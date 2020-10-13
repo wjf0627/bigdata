@@ -1,6 +1,10 @@
 package com.jinfeng.spark.example.example
 
+import java.net.URI
+
 import com.alibaba.fastjson.{JSON, JSONObject}
+import org.apache.hadoop.conf.Configuration
+import org.apache.hadoop.fs.{FileSystem, FileUtil, Path}
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.catalyst.ScalaReflection
 import org.apache.spark.sql.functions._
@@ -67,6 +71,8 @@ object SparkDemo {
       FileSystem.get(sc.hadoopConfiguration).delete(new Path(output), true)
       rdd.saveAsTextFile(output)
       */
+
+
       import spark.implicits._
       val set = new mutable.HashSet[(String, String, String)]()
       set.add(("A", "a",

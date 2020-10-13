@@ -1,19 +1,24 @@
 package com.jinfeng.spark.example.cassandra
 
-import com.datastax.spark.connector.{SomeColumns, _}
-import com.jinfeng.spark.example.entity.DeviceTarget
+import java.util
+import java.util.List
+import java.util.concurrent.CompletionStage
+
+import com.datastax.oss.driver.api.core.cql.Row
+import com.datastax.oss.driver.internal.core.util.concurrent.CompletableFutures
+import com.datastax.oss.driver.shaded.guava.common.collect.Lists
+import com.datastax.spark.connector.cql.CassandraConnector
+import com.jinfeng.util.{CassandraUtil, Demo}
 import org.apache.spark.sql.SparkSession
 
-import scala.collection.mutable
-
 /**
-  * @package: com.jinfeng.spark.example.cassandra
-  * @author: wangjf
-  * @date: 2019-06-19
-  * @time: 15:30
-  * @emial: wjf20110627@163.com
-  * @phone: 152-1062-7698
-  */
+ * @package: com.jinfeng.spark.example.cassandra
+ * @author: wangjf
+ * @date: 2019-06-19
+ * @time: 15:30
+ * @emial: wjf20110627@163.com
+ * @phone: 152-1062-7698
+ */
 object DmpCassandraSink {
 
   def main(args: Array[String]): Unit = {
@@ -31,6 +36,7 @@ object DmpCassandraSink {
 
       val sc = spark.sparkContext
 
+      /*
       val map = new mutable.HashMap[Integer, (String, Int)]()
       map.put(293058636, ("/Users/wangjf/Workspace/data/293058636.txt", 1))
 
@@ -52,12 +58,40 @@ object DmpCassandraSink {
         (c: Iterable[Integer], v: Integer) => c ++ Seq(v),
         (c1: Iterable[Integer], c2: Iterable[Integer]) => c1 ++ c2
       )
+      */
 
-      val df = rdd1.map(r => {
-        DeviceTarget(r._1, r._2.toSet)
+      //  import spark.implicits._
+      /*
+      val df = sc.parallelize(1 to 100).map(f = id => {
+        Row("" + UUID.randomUUID(), new mutable.HashSet[String]().toSet)
       })
 
-      df.saveToCassandra("dmp_realtime_service", "dmp_user_features", SomeColumns("device_id", "target_offer_list" overwrite))
+      df.saveToCassandra("rtdmp", "recent_device_region", SomeColumns("devid", "region"))
+      */
+
+      import scala.collection.JavaConversions._
+      val cassandraConnector = CassandraConnector(sc.getConf)
+      //  List<CompletionStage<Demo>> completionStages = Lists.newArrayList();
+      val rdd = sc.parallelize(scala.List("1f23d864-3fb7-470b-9912-ebd4e681ebaf", "fa5004c4-fed8-4368-9b6f-4d163c9d5d44", "9cda161f-da05-4fb0-9c19-90a122539032"))
+        .mapPartitions(rs => {
+          val array = new util.ArrayList[String]()
+          rs.foreach(r => {
+            val cqlSession = cassandraConnector.openSession()
+            val resultStage = CassandraUtil.testV4(cqlSession, r)
+            /*
+            resultStage.whenComplete((_: Demo, _: Throwable) =>
+              cqlSession.close())
+            */
+            array.add(resultStage.get().getDevid)
+          })
+          array.iterator()
+        })
+
+      rdd.foreach(println)
+      //  val set = new mutable.HashSet[String]()
+      //  set
+      //  val array = mutable.WrappedArray.make(set)
+      //  println(array.toSet)
 
     } finally {
       if (spark != null) {

@@ -10,4 +10,4 @@ package com.jinfeng.spark.example.entity
   * @phone: 152-1062-7698
   */
 
-case class DeviceTarget(device_id: String, target_offer_list: Set[Integer]) extends Serializable
+case class DeviceTarget(devid: String, region: Set[String]) extends Serializable
