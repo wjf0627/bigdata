@@ -7,9 +7,7 @@ import com.datastax.driver.mapping.annotations.Table;
 import org.apache.flink.types.Row;
 
 import java.io.Serializable;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 /**
  * @package: com.jinfeng.flink.entity
@@ -25,10 +23,10 @@ public class DevicePojo implements Serializable {
     private String device_id;
 
     @Column(name = "age")
-    private int age;
+    private String age;
 
     @Column(name = "gender")
-    private int gender;
+    private String gender;
 
     @Column(name = "install_apps")
     private Set<String> install;
@@ -37,54 +35,26 @@ public class DevicePojo implements Serializable {
     private Set<String> interest;
 
     @Column(name = "frequency")
-    @FrozenValue
-    private Set<TupleValue> frequency;
-    //  private Set<Tuple2<String,String>> frequency;
+    private Map<String, Integer> frequency;
 
-    //  TupleType tupleType
-    public DevicePojo(TupleType tupleType, Object device_id, Object age, Object gender, Object install, Object interest, List<?> frequency) {
+    public DevicePojo(TupleType tupleType, Object deviceId, Object age, Object gender, String[] install_list, String[] interest_tag, Row[] frequency_cnt) {
 
-        this.device_id = (String) device_id;
-        this.age = Integer.parseInt((String) age);
-        this.gender = Integer.parseInt((String) gender);
-        Set<String> set = new HashSet<>();
-        String[] install_row = Row.of(install).toString().replace("[", "").replace("]", "").split(",");
-        for (int i = 0; i < install_row.length; i++) {
-            set.add(install_row[i]);
-        }
-        this.install = set;
-        Set<String> iset = new HashSet<>();
-        String[] interest_row = Row.of(interest).toString().replace("[", "").replace("]", "").split(",");
-        for (int i = 0; i < interest_row.length; i++) {
-            iset.add(interest_row[i]);
-        }
-        this.interest = iset;
+        this.device_id = (String) deviceId;
+        this.age = (String) age;
+        this.gender = (String) gender;
 
-        //  UserType userType = keyspaceMetadata.getUserType("struct");
-        //  Set<UDTValue> tset = new HashSet<>();
-        //  Set<TupleUtils> tset = new HashSet<>();
-        Set<TupleValue> tset = new HashSet<>();
-        if (frequency.size() > 0) {
-            String[] ts = Row.of(frequency.get(0)).toString().replace("[", "").replace("]", "").split(",");
-            if (ts.length > 1) {
-                for (int i = 0; i < ts.length; i += 2) {
-                    //  UDTValue udtValue = userType.newValue();
-                    String tag = ts[i].trim();
-                    String cnt = ts[i + 1];
-                    TupleValue t = tupleType.newValue(tag, cnt);
-                    //  Tuple2<String, String> t = new Tuple2<>(tag, cnt);
-                    //  TupleUtils t = new TupleUtils(tag, cnt);
-                    //  udtValue.setString("tag", tag);
-                    //  udtValue.setString("cnt", cnt);
-                    //  TupleUtils t = new TupleUtils(tag, cnt);
-                    tset.add(t);
-                }
-                this.frequency = tset;
-            } else {
-                this.frequency = new HashSet<>();
+        Set<String> installSet = new HashSet<>(Arrays.asList(install_list));
+        this.install = installSet;
+
+        Set<String> interestSet = new HashSet<>(Arrays.asList(interest_tag));
+        this.interest = interestSet;
+
+        Map<String, Integer> map = new HashMap<>();
+        if (frequency_cnt != null && frequency_cnt.length > 0) {
+            for (Row row : frequency_cnt) {
+                map.put(row.getField(0).toString(), Integer.parseInt(row.getField(1).toString()));
             }
-        } else {
-            this.frequency = new HashSet<>();
+            this.frequency = map;
         }
     }
 
@@ -96,19 +66,19 @@ public class DevicePojo implements Serializable {
         this.device_id = device_id;
     }
 
-    public int getAge() {
+    public String getAge() {
         return age;
     }
 
-    public void setAge(int age) {
+    public void setAge(String age) {
         this.age = age;
     }
 
-    public int getGender() {
+    public String getGender() {
         return gender;
     }
 
-    public void setGender(int gender) {
+    public void setGender(String gender) {
         this.gender = gender;
     }
 
@@ -128,11 +98,11 @@ public class DevicePojo implements Serializable {
         this.interest = interest;
     }
 
-    public Set<TupleValue> getFrequency() {
+    public Map<String, Integer> getFrequency() {
         return frequency;
     }
 
-    public void setFrequency(Set<TupleValue> frequency) {
+    public void setFrequency(Map<String, Integer> frequency) {
         this.frequency = frequency;
     }
 }
