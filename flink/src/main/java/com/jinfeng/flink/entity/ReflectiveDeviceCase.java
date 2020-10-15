@@ -1,18 +1,13 @@
 package com.jinfeng.flink.entity;
 
 import com.datastax.driver.core.TupleType;
-import com.datastax.driver.core.TupleValue;
 import com.datastax.driver.mapping.annotations.Column;
-import com.datastax.driver.mapping.annotations.Frozen;
 import com.datastax.driver.mapping.annotations.PartitionKey;
 import com.datastax.driver.mapping.annotations.Table;
 import org.apache.flink.types.Row;
 
 import java.io.Serializable;
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 @Table(keyspace = "dmp_realtime_service", name = "dmp_user_features")
 public class ReflectiveDeviceCase implements Serializable {
@@ -27,72 +22,33 @@ public class ReflectiveDeviceCase implements Serializable {
     @Column(name = "gender")
     private String gender;
 
+    @Column(name = "install_apps")
+    private Set<String> install;
+
     @Column(name = "interest")
     private Set<String> interest;
 
-    @Frozen
     @Column(name = "frequency")
-    private Set<TupleValue> frequency;
+    private Map<String, Integer> frequency;
 
-    public ReflectiveDeviceCase(TupleType tupleType, Object field, List<?> field1) throws ClassCastException {
-        this.device_id = (String) field;
-        Set<String> set = new HashSet<>();
+    public ReflectiveDeviceCase(TupleType tupleType, Object deviceId, Object age, Object gender, String[] install_list, String[] interest_tag, Row[] frequency_cnt) throws ClassCastException {
+        this.device_id = (String) deviceId;
+        this.age = (String) age;
+        this.gender = (String) gender;
 
-        for (int i = 0; i < field1.size(); i++) {
-            set.add(field1.get(i).toString());
-        }
-        this.interest = set;
-        /*
-        this.age = (String) field1;
-        this.gender = (String) field2;
-         */
-        /*
-        Set<TupleValue> tset = new HashSet<>();
-        if (Arrays.asList(field1).size() > 0) {
-            String[] ts = Row.of(field1).toString().replace("[", "").replace("]", "").split(",");
-            if (ts.length > 1) {
-                for (int i = 0; i < ts.length; i += 2) {
-                    String tag = ts[i];
-                    String cnt = ts[i + 1];
-                    TupleValue t = tupleType.newValue(tag, cnt);
-                    //  Tuple2<String, Integer> t = new Tuple2<>(tag, cnt);
-                    tset.add(t);
-                }
-                this.frequency = tset;
-            }
-        }
-
-         */
-
-        /*
-        if (field1.size() > 0) {
-            for (int i = 0; i < Arrays.asList(field1.get(0)).size(); i++) {
-                //  Row t = (Row) Arrays.asList(field1.get(0)).get(i);
-                //  Arrays.asList(frequency.get(0)).get(i)
-                //  System.out.println(Arrays.asList(frequency.get(0)).get(i).getClass());
-                //    String tag = ((Record) Arrays.asList(frequency.get(0)).get(i)).;
-                //  RowTypeInfo schema = new RowTypeInfo(new TypeInformation[]{BasicTypeInfo.STRING_TYPE_INFO,BasicTypeInfo.STRING_TYPE_INFO}, new String[]{"tag","cnt"});
-                //  TypeInformation<?>[] typeArray = new TypeInformation<?>[arity];
-                //  typeArray = TypeExtractor.getForObject(Arrays.asList(field1.get(0)).get(i));
-                String[] tcs = Row.of(Row.of(Arrays.asList(field1.get(0)).get(i))).toString().split(",");
-                String tag = tcs[0];
-                //  Arrays.asList(field1.get(0)).get(i)
-                int cnt = Integer.parseInt(tcs[1]);
-                TupleUtils t = new TupleUtils(tag, cnt);
-                tset.add(t);
-            }
-
-            this.frequency = tset;
-        }
-         */
-        /*
-        Set<String> installSet = new HashSet<>();
-        for (int i = 0; i < field1.size(); i++) {
-
-            installSet.add(field1.get(i).toString());
-        }
+        Set<String> installSet = new HashSet<>(Arrays.asList(install_list));
         this.install = installSet;
-         */
+
+        Set<String> interestSet = new HashSet<>(Arrays.asList(interest_tag));
+        this.interest = interestSet;
+
+        Map<String, Integer> map = new HashMap<>();
+        if (frequency_cnt != null && frequency_cnt.length > 0) {
+            for (Row row : frequency_cnt) {
+                map.put(row.getField(0).toString(), Integer.parseInt(row.getField(1).toString()));
+            }
+            this.frequency = map;
+        }
     }
 
     public String getDevice_id() {
@@ -119,6 +75,14 @@ public class ReflectiveDeviceCase implements Serializable {
         this.gender = gender;
     }
 
+    public Set<String> getInstall() {
+        return install;
+    }
+
+    public void setInstall(Set<String> install) {
+        this.install = install;
+    }
+
     public Set<String> getInterest() {
         return interest;
     }
@@ -127,11 +91,11 @@ public class ReflectiveDeviceCase implements Serializable {
         this.interest = interest;
     }
 
-    public Set<TupleValue> getFrequency() {
+    public Map<String, Integer> getFrequency() {
         return frequency;
     }
 
-    public void setFrequency(Set<TupleValue> frequency) {
+    public void setFrequency(Map<String, Integer> frequency) {
         this.frequency = frequency;
     }
 }

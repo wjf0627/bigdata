@@ -14,7 +14,6 @@ import org.apache.flink.streaming.connectors.cassandra.ClusterBuilder;
 import org.apache.flink.types.Row;
 import org.apache.hadoop.conf.Configuration;
 
-import java.util.Arrays;
 import java.util.Properties;
 
 public class FinkOrcCassandraExample {
@@ -27,9 +26,9 @@ public class FinkOrcCassandraExample {
         Properties properties = new Properties();
 
         // set up the batch execution environment
-        properties.setProperty("cassandra.maxRequestsPerConnection", "80");
-        properties.setProperty("cassandra.maxConnectionsPerHost", "10");
-        properties.setProperty("cassandra.coreConnectionsPerHost", "2");
+        properties.setProperty("cassandra.maxRequestsPerConnection", "1024");
+        properties.setProperty("cassandra.maxConnectionsPerHost", "256");
+        properties.setProperty("cassandra.coreConnectionsPerHost", "16");
         properties.setProperty("cassandra.port", "9042");
         properties.setProperty("cassandra.ttl", "1468800");
         properties.setProperty("cassandra.local.host", "127.0.0.1");
@@ -81,7 +80,7 @@ public class FinkOrcCassandraExample {
          */
 
         dataSet.output(new CassandraPojoOutputFormat<>(clusterBuilder, ReflectiveDeviceCase.class, () -> new Mapper.Option[]{Mapper.Option.saveNullFields(true)}));
-        //  dataSet.output(sink);
+        //    dataSet.output(sink);
         env.execute("write");
 
         //  DataSet<ReflectiveDeviceCase> dataSet = tabEnv.toDataSet(table, ReflectiveDeviceCase.class);
@@ -128,8 +127,8 @@ public class FinkOrcCassandraExample {
     private static final class ConvertToReflective extends RichMapFunction<Row, ReflectiveDeviceCase> {
         @Override
         public ReflectiveDeviceCase map(Row row) {
-            //  row.getField(1), row.getField(2),
-            return new ReflectiveDeviceCase(tupleType, row.getField(0), Arrays.asList(row.getField(4)));
+            return new ReflectiveDeviceCase(tupleType, row.getField(0), row.getField(1), row.getField(2), (String[]) row.getField(3),
+                    (String[]) row.getField(4), (Row[]) row.getField(5));
         }
     }
 
