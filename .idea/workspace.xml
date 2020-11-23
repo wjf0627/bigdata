@@ -1,0 +1,1890 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f982e6bb-11ad-40e3-9d07-ed4e039b46b8" name="Default Changelist" comment="init clickhouse">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/wangjf.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/hydra.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/qaplug_profiles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/azkaban/azkaban.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/azkaban/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/azkaban/src/main/java/com/jinfeng/azkaban/example/AzkabanDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/azkaban/src/main/java/com/jinfeng/azkaban/utils/AzkabanHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/azkaban/src/main/java/com/jinfeng/azkaban/utils/SSLUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clickhouse_server/src/main/java/com/jinfeng/clickhouse/example/DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clickhouse_server/src/main/java/com/jinfeng/clickhouse/utils/ClickHouseJDBC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/jinfeng/common/utils/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/jinfeng/common/utils/DateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/src/main/java/com/jinfeng/example/BundleClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/src/main/java/com/jinfeng/example/BundleMatchServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/src/main/java/com/jinfeng/example/PropertyUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/src/main/resources/logback-syslog.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hive/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hive/src/main/java/com/jinfeng/hive/example/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hive/src/main/java/com/jinfeng/hive/util/QueryInstance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hive/src/main/java/com/jinfeng/hive/util/QueryTool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clickhouse/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/clickhouse/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clickhouse/src/main/java/com/jinfeng/clickhouse/ClickHouseFlinkSink.java" beforeDir="false" afterPath="$PROJECT_DIR$/clickhouse/src/main/java/com/jinfeng/clickhouse/ClickHouseFlinkSink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clickhouse/src/main/java/com/jinfeng/clickhouse/ClickHouseKafkaSink.java" beforeDir="false" afterPath="$PROJECT_DIR$/clickhouse/src/main/java/com/jinfeng/clickhouse/ClickHouseKafkaSink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clickhouse/src/main/java/com/jinfeng/clickhouse/pojo/DeviceExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/clickhouse/src/main/java/com/jinfeng/clickhouse/pojo/DeviceExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clickhouse_server/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/clickhouse_server/src/main/resources/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/src/main/scala/com/jinfeng/example/HelloWorld.scala" beforeDir="false" afterPath="$PROJECT_DIR$/example/src/main/scala/com/jinfeng/example/HelloWorld.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/sql/device_target.sql" beforeDir="false" afterPath="$PROJECT_DIR$/flink/sql/device_target.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka/src/main/java/com/jinfeng/kafka/utils/ClickHouseKafkaSink.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka/src/main/java/com/jinfeng/kafka/utils/ClickHouseKafkaSink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Scala Object" />
+        <option value="Package Object" />
+        <option value="Jupyter Notebook" />
+        <option value="Python Script" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/wjf0627/bigdata" />
+      </set>
+    </option>
+  </component>
+  <component name="JupyterTrust" id="a9ea4f14-ab9f-4ba3-a2a4-83bcb1e31382" />
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../software/apache-maven" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1Zeci711iXZErvSdTkdkkzmAtA5" />
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>CoffeeScript</id>
+          </State>
+          <State>
+            <id>Control flow issuesJava</id>
+          </State>
+          <State>
+            <id>GeneralScala</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>JSP</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>Numeric issuesJava</id>
+          </State>
+          <State>
+            <id>Probable bugsCoffeeScript</id>
+          </State>
+          <State>
+            <id>Probable bugsGroovy</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>Probable bugsJavaScript</id>
+          </State>
+          <State>
+            <id>Scala</id>
+          </State>
+          <State>
+            <id>Style issuesKotlin</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>ReplaceToWithInfixForm</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558698937326" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="jdk.selected.PYTHON_MODULE" value="Python 3.6" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/example/src/main/resources" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.24754901" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myUseExistingConsole" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/python/clickhouse" />
+      <recent name="$PROJECT_DIR$/python/kafka" />
+      <recent name="$PROJECT_DIR$/python" />
+      <recent name="$PROJECT_DIR$/common/src/main/scala/com.jinfeng.common.entity" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.jinfeng.clickhouse" />
+      <recent name="" />
+      <recent name="com.jinfeng" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jinfeng.example" />
+      <recent name="com.jinfeng.spark.example.example" />
+      <recent name="com.jinfeng.clickhouse" />
+      <recent name="com.jinfeng.clickhouse.dsp" />
+      <recent name="com.jinfeng.clickhouse.config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/example/src/main/resources" />
+      <recent name="$PROJECT_DIR$/azkaban/src/main/java/com/jinfeng/azkaban" />
+      <recent name="$PROJECT_DIR$/example/src/main/java/com/jinfeng/example" />
+      <recent name="$PROJECT_DIR$/spark/src/main/scala/com/jinfeng/spark/example/example" />
+      <recent name="$PROJECT_DIR$/spark/src/main/scala/com/jinfeng/spark/example/jdbc" />
+    </key>
+  </component>
+  <component name="RestServicesNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="RunManager" selected="Application.HelloWorld">
+    <configuration name="AzkabanDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jinfeng.azkaban.example.AzkabanDemo" />
+      <module name="azkaban" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jinfeng.azkaban.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BundleMatchServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jinfeng.example.BundleMatchServer" />
+      <module name="example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jinfeng.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jinfeng.clickhouse.example.DemoApplication" />
+      <module name="clickhouse_server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jinfeng.clickhouse.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.jinfeng.example.HelloWorld" />
+      <module name="example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jinfeng.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SparkTest1" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.jinfeng.spark.example.example.SparkTest1" />
+      <module name="spark" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jinfeng.spark.example.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClickhouseServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="clickhouse_server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jinfeng.clickhouse.ClickhouseServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.BundleMatchServer" />
+      <item itemvalue="Application.DemoApplication" />
+      <item itemvalue="Application.HelloWorld" />
+      <item itemvalue="Application.SparkTest1" />
+      <item itemvalue="Spring Boot.ClickhouseServerApplication" />
+      <item itemvalue="Application.AzkabanDemo" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AzkabanDemo" />
+        <item itemvalue="Application.SparkTest1" />
+        <item itemvalue="Application.HelloWorld" />
+        <item itemvalue="Application.DemoApplication" />
+        <item itemvalue="Application.BundleMatchServer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f982e6bb-11ad-40e3-9d07-ed4e039b46b8" name="Default Changelist" comment="" />
+      <created>1546944405230</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1546944405230</updated>
+      <workItem from="1546944406997" duration="13285000" />
+      <workItem from="1548137055563" duration="464000" />
+      <workItem from="1548209698535" duration="19551000" />
+      <workItem from="1548781068661" duration="29000" />
+      <workItem from="1551077932883" duration="511000" />
+      <workItem from="1551159971284" duration="1772000" />
+      <workItem from="1551336238111" duration="9000" />
+      <workItem from="1551940189067" duration="1872000" />
+      <workItem from="1551954625544" duration="1734000" />
+      <workItem from="1552029301815" duration="5051000" />
+      <workItem from="1552304179565" duration="10747000" />
+      <workItem from="1553214188719" duration="23162000" />
+      <workItem from="1553768017963" duration="10662000" />
+      <workItem from="1553820820475" duration="3722000" />
+      <workItem from="1553828185169" duration="6673000" />
+      <workItem from="1553839397999" duration="150000" />
+      <workItem from="1553839576978" duration="1286000" />
+      <workItem from="1553841652653" duration="118000" />
+      <workItem from="1553842583690" duration="7892000" />
+      <workItem from="1553938464130" duration="1138000" />
+      <workItem from="1554276728897" duration="1655000" />
+      <workItem from="1554341911765" duration="5207000" />
+      <workItem from="1557482945948" duration="162000" />
+      <workItem from="1557824177425" duration="6510000" />
+      <workItem from="1557971154756" duration="434000" />
+      <workItem from="1557972540779" duration="41486000" />
+      <workItem from="1558430546759" duration="23451000" />
+      <workItem from="1558698121031" duration="328000" />
+      <workItem from="1558698499994" duration="92000" />
+      <workItem from="1558698627516" duration="628000" />
+      <workItem from="1558746172734" duration="287000" />
+      <workItem from="1558746468039" duration="37000" />
+      <workItem from="1558746528688" duration="109000" />
+      <workItem from="1558747387705" duration="266000" />
+      <workItem from="1558747674374" duration="15000" />
+      <workItem from="1558748487979" duration="1084000" />
+      <workItem from="1558750224064" duration="183000" />
+      <workItem from="1558750425464" duration="155000" />
+      <workItem from="1558750606519" duration="946000" />
+      <workItem from="1558921903375" duration="2114000" />
+      <workItem from="1559015493049" duration="6679000" />
+      <workItem from="1559044637489" duration="2785000" />
+      <workItem from="1559121113380" duration="9082000" />
+      <workItem from="1559143224476" duration="46349000" />
+      <workItem from="1559296385328" duration="26013000" />
+      <workItem from="1559375059670" duration="32141000" />
+      <workItem from="1559800511481" duration="7184000" />
+      <workItem from="1560084826371" duration="88000" />
+      <workItem from="1560138016452" duration="14640000" />
+      <workItem from="1560232917083" duration="11000" />
+      <workItem from="1560232976196" duration="22531000" />
+      <workItem from="1560405299897" duration="4155000" />
+      <workItem from="1560740567732" duration="28081000" />
+      <workItem from="1560909422361" duration="3694000" />
+      <workItem from="1560923538786" duration="16589000" />
+      <workItem from="1560995710874" duration="12428000" />
+      <workItem from="1561452241780" duration="14959000" />
+      <workItem from="1561533219723" duration="2973000" />
+      <workItem from="1561687206934" duration="2557000" />
+      <workItem from="1561951278607" duration="11645000" />
+      <workItem from="1561983461594" duration="2887000" />
+      <workItem from="1562033615749" duration="14193000" />
+      <workItem from="1562206485982" duration="16383000" />
+      <workItem from="1562497603636" duration="11000" />
+      <workItem from="1562550134197" duration="12314000" />
+      <workItem from="1562570303739" duration="8420000" />
+      <workItem from="1562638052550" duration="50884000" />
+      <workItem from="1563011909879" duration="9708000" />
+      <workItem from="1563269113355" duration="16645000" />
+      <workItem from="1563504909764" duration="11636000" />
+      <workItem from="1563761590557" duration="16227000" />
+      <workItem from="1563880356078" duration="478000" />
+      <workItem from="1563882906061" duration="4000" />
+      <workItem from="1563953768917" duration="5263000" />
+      <workItem from="1564020145219" duration="1071000" />
+      <workItem from="1564188077806" duration="3672000" />
+      <workItem from="1564325495486" duration="2755000" />
+      <workItem from="1564452066961" duration="9277000" />
+      <workItem from="1564986547047" duration="9009000" />
+      <workItem from="1565170374745" duration="1069000" />
+      <workItem from="1565328991211" duration="5259000" />
+      <workItem from="1565702610707" duration="5834000" />
+      <workItem from="1566442343504" duration="5415000" />
+      <workItem from="1566546285412" duration="15538000" />
+      <workItem from="1567072670327" duration="856000" />
+      <workItem from="1567138434091" duration="933000" />
+      <workItem from="1567157415008" duration="7673000" />
+      <workItem from="1567387346190" duration="8498000" />
+      <workItem from="1567753966485" duration="7235000" />
+      <workItem from="1567997116979" duration="3779000" />
+      <workItem from="1568081938298" duration="72000" />
+      <workItem from="1568194931638" duration="4723000" />
+      <workItem from="1569221409641" duration="3840000" />
+      <workItem from="1569306415662" duration="4775000" />
+      <workItem from="1569404207104" duration="3553000" />
+      <workItem from="1570609982867" duration="602000" />
+      <workItem from="1570680969593" duration="678000" />
+      <workItem from="1571044805465" duration="2715000" />
+      <workItem from="1571193594920" duration="17531000" />
+      <workItem from="1571896175591" duration="1899000" />
+      <workItem from="1574394592683" duration="5860000" />
+      <workItem from="1574653810191" duration="3877000" />
+      <workItem from="1574927239060" duration="1815000" />
+      <workItem from="1576206670467" duration="4940000" />
+      <workItem from="1576744732264" duration="8447000" />
+      <workItem from="1577671487860" duration="4997000" />
+      <workItem from="1578038801756" duration="4160000" />
+      <workItem from="1578282788858" duration="9158000" />
+      <workItem from="1578638024119" duration="1456000" />
+      <workItem from="1579059427468" duration="387000" />
+      <workItem from="1585203126154" duration="1099000" />
+      <workItem from="1585381463850" duration="19000" />
+      <workItem from="1587543345445" duration="20539000" />
+      <workItem from="1587695073228" duration="10000" />
+      <workItem from="1587795904704" duration="39993000" />
+      <workItem from="1588735301240" duration="51121000" />
+      <workItem from="1589106840343" duration="2783000" />
+      <workItem from="1589180553330" duration="99000" />
+      <workItem from="1589180683013" duration="38665000" />
+      <workItem from="1589503989369" duration="259000" />
+      <workItem from="1589517704588" duration="598000" />
+      <workItem from="1589519690236" duration="170000" />
+      <workItem from="1589521409946" duration="2932000" />
+      <workItem from="1589779524373" duration="764000" />
+      <workItem from="1590030151732" duration="16348000" />
+      <workItem from="1590933761358" duration="4287000" />
+      <workItem from="1591253548902" duration="68000" />
+      <workItem from="1591774081340" duration="286000" />
+      <workItem from="1591777057043" duration="7572000" />
+      <workItem from="1591843393307" duration="14210000" />
+      <workItem from="1592204432142" duration="327000" />
+      <workItem from="1594626344193" duration="8158000" />
+      <workItem from="1596092499898" duration="2127000" />
+      <workItem from="1597285408534" duration="524000" />
+      <workItem from="1597399569237" duration="4032000" />
+      <workItem from="1597645857250" duration="8073000" />
+      <workItem from="1597729826579" duration="5365000" />
+      <workItem from="1598511279832" duration="9659000" />
+      <workItem from="1598527101824" duration="4810000" />
+      <workItem from="1598596659879" duration="104000" />
+      <workItem from="1598597407750" duration="1468000" />
+      <workItem from="1598841436192" duration="2082000" />
+      <workItem from="1599309919272" duration="237000" />
+      <workItem from="1599464803909" duration="536000" />
+      <workItem from="1599466406768" duration="167000" />
+      <workItem from="1599466595986" duration="417000" />
+      <workItem from="1599484477340" duration="37000" />
+      <workItem from="1599623023464" duration="33677000" />
+      <workItem from="1600655306719" duration="8114000" />
+      <workItem from="1600769442488" duration="7540000" />
+      <workItem from="1600845951168" duration="6561000" />
+      <workItem from="1601002778211" duration="22768000" />
+      <workItem from="1601202113608" duration="590000" />
+      <workItem from="1601257343152" duration="544000" />
+      <workItem from="1602488812346" duration="3454000" />
+      <workItem from="1602584136909" duration="28978000" />
+      <workItem from="1603100194873" duration="597000" />
+      <workItem from="1603101258939" duration="14051000" />
+      <workItem from="1603358887580" duration="5931000" />
+      <workItem from="1603879692759" duration="4976000" />
+      <workItem from="1604134451352" duration="256000" />
+      <workItem from="1604306784944" duration="1727000" />
+      <workItem from="1604371583771" duration="62000" />
+      <workItem from="1604371762809" duration="12592000" />
+      <workItem from="1605583485693" duration="13945000" />
+    </task>
+    <task id="LOCAL-00001" summary="init clickhouse">
+      <created>1564194398224</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1564194398224</updated>
+    </task>
+    <task id="LOCAL-00002" summary="init clickhouse">
+      <created>1564194510485</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1564194510485</updated>
+    </task>
+    <task id="LOCAL-00003" summary="init clickhouse">
+      <created>1564195706907</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1564195706907</updated>
+    </task>
+    <task id="LOCAL-00004" summary="init clickhouse">
+      <created>1564195893525</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1564195893525</updated>
+    </task>
+    <task id="LOCAL-00005" summary="init clickhouse">
+      <created>1565940110009</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1565940110009</updated>
+    </task>
+    <task id="LOCAL-00006" summary="init clickhouse">
+      <created>1574845460932</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1574845460932</updated>
+    </task>
+    <task id="LOCAL-00007" summary="init clickhouse">
+      <created>1574845530688</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1574845530688</updated>
+    </task>
+    <task id="LOCAL-00008" summary="init clickhouse">
+      <created>1591788361563</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1591788361563</updated>
+    </task>
+    <task id="LOCAL-00009" summary="init clickhouse">
+      <created>1591863114444</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1591863114445</updated>
+    </task>
+    <task id="LOCAL-00010" summary="init clickhouse">
+      <created>1598511506609</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1598511506609</updated>
+    </task>
+    <task id="LOCAL-00011" summary="init clickhouse">
+      <created>1598511524005</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1598511524005</updated>
+    </task>
+    <task id="LOCAL-00012" summary="init clickhouse">
+      <created>1598515900515</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1598515900516</updated>
+    </task>
+    <task id="LOCAL-00013" summary="init clickhouse">
+      <created>1600148607618</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1600148607618</updated>
+    </task>
+    <task id="LOCAL-00014" summary="init clickhouse">
+      <created>1602585043601</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1602585043601</updated>
+    </task>
+    <task id="LOCAL-00015" summary="init clickhouse">
+      <created>1602753783608</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1602753783609</updated>
+    </task>
+    <task id="LOCAL-00016" summary="init clickhouse">
+      <created>1602754291654</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1602754291654</updated>
+    </task>
+    <task id="LOCAL-00017" summary="init clickhouse">
+      <created>1602754544777</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1602754544777</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init clickhouse" />
+    <option name="LAST_COMMIT_MESSAGE" value="init clickhouse" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2000" y="102" key="#Project_Structure" timestamp="1603078663719">
+      <screen x="1440" y="-103" width="1920" height="1080" />
+    </state>
+    <state x="2000" y="102" key="#Project_Structure/0.0.1440.900/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1603078663719" />
+    <state x="2051" y="165" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1605756312740">
+      <screen x="1440" y="-103" width="1920" height="1080" />
+    </state>
+    <state x="2051" y="165" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1440.900/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1605756312740" />
+    <state x="1864" y="99" width="1071" height="731" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600852379516">
+      <screen x="1440" y="-103" width="1920" height="1080" />
+    </state>
+    <state x="1864" y="99" width="1071" height="731" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1600852379516" />
+    <state x="2137" y="358" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog" timestamp="1604307265967">
+      <screen x="1440" y="-103" width="1920" height="1080" />
+    </state>
+    <state x="2137" y="358" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog/0.0.1440.900/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1604307265967" />
+    <state x="2213" y="153" key="#com.intellij.ide.util.MemberChooser" timestamp="1602755130669">
+      <screen x="1440" y="-103" width="1920" height="1080" />
+    </state>
+    <state x="2213" y="153" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1602755130669" />
+    <state x="2138" y="191" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1601013602944">
+      <screen x="1440" y="-103" width="1920" height="1080" />
+    </state>
+    <state x="2138" y="191" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1440.900/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1601013602944" />
+    <state x="2252" y="-80" key="CommitChangelistDialog2" timestamp="1600148606934">
+      <screen x="1440" y="-103" width="1920" height="1080" />
+    </state>
+    <state x="2252" y="-80" key="CommitChangelistDialog2/0.0.1440.900/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1600148606934" />
+    <state x="1540" y="-3" width="1720" height="880" key="DiffContextDialog" timestamp="1600142442895">
+      <screen x="1440" y="-103" width="1920" height="1080" />
+    </state>
+    <state x="1540" y="-3" width="1720" height="880" key="DiffContextDialog/0.0.1440.900/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1600142442895" />
+    <state x="1999" y="101" key="GrepConsoleSettings" timestamp="1602665559014">
+      <screen x="1440" y="-103" width="1920" height="1080" />
+    </state>
+    <state x="1999" y="101" key="GrepConsoleSettings/0.0.1440.900/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1602665559014" />
+    <state width="1876" height="374" key="GridCell.Tab.0.bottom" timestamp="1605757118142">
+      <screen x="1440" y="-103" width="1920" height="1080" />
+    </state>
+    <state width="1396" height="374" key="GridCell.Tab.0.bottom/0.0.1440.838/1440.-78.1920.1055@1440.-78.1920.1055" timestamp="1605595355162" />
+    <state width="1878" height="391" key="GridCell.Tab.0.bottom/0.0.1440.900/-273.-1080.1920.1080@-273.-1080.1920.1080" timestamp="1600177084978" />
+    <state width="1396" height="284" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-103.1920.1080@0.0.1440.900" timestamp="1604826311834" />
+    <state width="1876" height="374" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1605757118142" />
+    <state width="869" height="362" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1602505810015" />
+    <state width="1876" height="448" key="GridCell.Tab.0.bottom/0.23.1440.821/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1603273688952" />
+    <state width="1876" height="448" key="GridCell.Tab.0.bottom/0.23.1440.821/1440.-80.1920.1057@1440.-80.1920.1057" timestamp="1603337737592" />
+    <state width="1398" height="389" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1600139304801" />
+    <state width="1876" height="448" key="GridCell.Tab.0.bottom/0.23.1440.822/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1603939973620" />
+    <state width="1878" height="368" key="GridCell.Tab.0.bottom/0.23.1440.822/1440.-80.1920.1057@1440.-80.1920.1057" timestamp="1598517458515" />
+    <state width="1876" height="284" key="GridCell.Tab.0.bottom/0.23.1440.823/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1604574009846" />
+    <state width="1876" height="448" key="GridCell.Tab.0.bottom/0.23.1440.823/1440.-80.1920.1057@1440.-80.1920.1057" timestamp="1603095410710" />
+    <state width="1876" height="497" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1604917415843" />
+    <state width="1876" height="374" key="GridCell.Tab.0.center" timestamp="1605757118140">
+      <screen x="1440" y="-103" width="1920" height="1080" />
+    </state>
+    <state width="1396" height="374" key="GridCell.Tab.0.center/0.0.1440.838/1440.-78.1920.1055@1440.-78.1920.1055" timestamp="1605595355158" />
+    <state width="1878" height="391" key="GridCell.Tab.0.center/0.0.1440.900/-273.-1080.1920.1080@-273.-1080.1920.1080" timestamp="1600177084976" />
+    <state width="1396" height="284" key="GridCell.Tab.0.center/0.0.1440.900/1440.-103.1920.1080@0.0.1440.900" timestamp="1604826311831" />
+    <state width="1876" height="374" key="GridCell.Tab.0.center/0.0.1440.900/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1605757118140" />
+    <state width="869" height="362" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1602505810013" />
+    <state width="1876" height="448" key="GridCell.Tab.0.center/0.23.1440.821/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1603273688949" />
+    <state width="1876" height="448" key="GridCell.Tab.0.center/0.23.1440.821/1440.-80.1920.1057@1440.-80.1920.1057" timestamp="1603337737579" />
+    <state width="1398" height="389" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1600139304799" />
+    <state width="1876" height="448" key="GridCell.Tab.0.center/0.23.1440.822/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1603939973617" />
+    <state width="1878" height="368" key="GridCell.Tab.0.center/0.23.1440.822/1440.-80.1920.1057@1440.-80.1920.1057" timestamp="1598517458513" />
+    <state width="1876" height="284" key="GridCell.Tab.0.center/0.23.1440.823/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1604574009842" />
+    <state width="1876" height="448" key="GridCell.Tab.0.center/0.23.1440.823/1440.-80.1920.1057@1440.-80.1920.1057" timestamp="1603095410704" />
+    <state width="1876" height="497" key="GridCell.Tab.0.center/0.23.1440.877/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1604917415838" />
+    <state width="1876" height="374" key="GridCell.Tab.0.left" timestamp="1605757118138">
+      <screen x="1440" y="-103" width="1920" height="1080" />
+    </state>
+    <state width="1396" height="374" key="GridCell.Tab.0.left/0.0.1440.838/1440.-78.1920.1055@1440.-78.1920.1055" timestamp="1605595355156" />
+    <state width="1878" height="391" key="GridCell.Tab.0.left/0.0.1440.900/-273.-1080.1920.1080@-273.-1080.1920.1080" timestamp="1600177084974" />
+    <state width="1396" height="284" key="GridCell.Tab.0.left/0.0.1440.900/1440.-103.1920.1080@0.0.1440.900" timestamp="1604826311829" />
+    <state width="1876" height="374" key="GridCell.Tab.0.left/0.0.1440.900/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1605757118138" />
+    <state width="869" height="362" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1602505810012" />
+    <state width="1876" height="448" key="GridCell.Tab.0.left/0.23.1440.821/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1603273688948" />
+    <state width="1876" height="448" key="GridCell.Tab.0.left/0.23.1440.821/1440.-80.1920.1057@1440.-80.1920.1057" timestamp="1603337737576" />
+    <state width="1398" height="389" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1600139304797" />
+    <state width="1876" height="448" key="GridCell.Tab.0.left/0.23.1440.822/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1603939973615" />
+    <state width="1878" height="368" key="GridCell.Tab.0.left/0.23.1440.822/1440.-80.1920.1057@1440.-80.1920.1057" timestamp="1598517458512" />
+    <state width="1876" height="284" key="GridCell.Tab.0.left/0.23.1440.823/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1604574009840" />
+    <state width="1876" height="448" key="GridCell.Tab.0.left/0.23.1440.823/1440.-80.1920.1057@1440.-80.1920.1057" timestamp="1603095410702" />
+    <state width="1876" height="497" key="GridCell.Tab.0.left/0.23.1440.877/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1604917415836" />
+    <state width="1876" height="374" key="GridCell.Tab.0.right" timestamp="1605757118141">
+      <screen x="1440" y="-103" width="1920" height="1080" />
+    </state>
+    <state width="1396" height="374" key="GridCell.Tab.0.right/0.0.1440.838/1440.-78.1920.1055@1440.-78.1920.1055" timestamp="1605595355160" />
+    <state width="1878" height="391" key="GridCell.Tab.0.right/0.0.1440.900/-273.-1080.1920.1080@-273.-1080.1920.1080" timestamp="1600177084977" />
+    <state width="1396" height="284" key="GridCell.Tab.0.right/0.0.1440.900/1440.-103.1920.1080@0.0.1440.900" timestamp="1604826311832" />
+    <state width="1876" height="374" key="GridCell.Tab.0.right/0.0.1440.900/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1605757118141" />
+    <state width="869" height="362" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1602505810014" />
+    <state width="1876" height="448" key="GridCell.Tab.0.right/0.23.1440.821/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1603273688951" />
+    <state width="1876" height="448" key="GridCell.Tab.0.right/0.23.1440.821/1440.-80.1920.1057@1440.-80.1920.1057" timestamp="1603337737582" />
+    <state width="1398" height="389" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1600139304800" />
+    <state width="1876" height="448" key="GridCell.Tab.0.right/0.23.1440.822/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1603939973619" />
+    <state width="1878" height="368" key="GridCell.Tab.0.right/0.23.1440.822/1440.-80.1920.1057@1440.-80.1920.1057" timestamp="1598517458514" />
+    <state width="1876" height="284" key="GridCell.Tab.0.right/0.23.1440.823/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1604574009844" />
+    <state width="1876" height="448" key="GridCell.Tab.0.right/0.23.1440.823/1440.-80.1920.1057@1440.-80.1920.1057" timestamp="1603095410705" />
+    <state width="1876" height="497" key="GridCell.Tab.0.right/0.23.1440.877/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1604917415841" />
+    <state width="1396" height="462" key="GridCell.Tab.1.bottom" timestamp="1605596136411">
+      <screen x="1440" y="-103" width="1920" height="1080" />
+    </state>
+    <state width="1396" height="462" key="GridCell.Tab.1.bottom/0.0.1440.900/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1605596136411" />
+    <state width="1876" height="459" key="GridCell.Tab.1.bottom/0.23.1440.821/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1603268875881" />
+    <state width="1878" height="443" key="GridCell.Tab.1.bottom/0.23.1440.821/1440.-80.1920.1057@1440.-80.1920.1057" timestamp="1597652540592" />
+    <state width="1876" height="497" key="GridCell.Tab.1.bottom/0.23.1440.822/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1603423642168" />
+    <state width="1876" height="497" key="GridCell.Tab.1.bottom/0.23.1440.822/1440.-80.1920.1057@1440.-80.1920.1057" timestamp="1603423652425" />
+    <state width="1876" height="497" key="GridCell.Tab.1.bottom/0.23.1440.877/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1604917415854" />
+    <state width="1396" height="462" key="GridCell.Tab.1.center" timestamp="1605596136409">
+      <screen x="1440" y="-103" width="1920" height="1080" />
+    </state>
+    <state width="1396" height="462" key="GridCell.Tab.1.center/0.0.1440.900/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1605596136409" />
+    <state width="1876" height="459" key="GridCell.Tab.1.center/0.23.1440.821/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1603268875878" />
+    <state width="1878" height="443" key="GridCell.Tab.1.center/0.23.1440.821/1440.-80.1920.1057@1440.-80.1920.1057" timestamp="1597652540591" />
+    <state width="1876" height="497" key="GridCell.Tab.1.center/0.23.1440.822/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1603423642163" />
+    <state width="1876" height="497" key="GridCell.Tab.1.center/0.23.1440.822/1440.-80.1920.1057@1440.-80.1920.1057" timestamp="1603423652422" />
+    <state width="1876" height="497" key="GridCell.Tab.1.center/0.23.1440.877/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1604917415849" />
+    <state width="1396" height="462" key="GridCell.Tab.1.left" timestamp="1605596136408">
+      <screen x="1440" y="-103" width="1920" height="1080" />
+    </state>
+    <state width="1396" height="462" key="GridCell.Tab.1.left/0.0.1440.900/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1605596136408" />
+    <state width="1876" height="459" key="GridCell.Tab.1.left/0.23.1440.821/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1603268875876" />
+    <state width="1878" height="443" key="GridCell.Tab.1.left/0.23.1440.821/1440.-80.1920.1057@1440.-80.1920.1057" timestamp="1597652540590" />
+    <state width="1876" height="497" key="GridCell.Tab.1.left/0.23.1440.822/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1603423642161" />
+    <state width="1876" height="497" key="GridCell.Tab.1.left/0.23.1440.822/1440.-80.1920.1057@1440.-80.1920.1057" timestamp="1603423652420" />
+    <state width="1876" height="497" key="GridCell.Tab.1.left/0.23.1440.877/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1604917415846" />
+    <state width="1396" height="462" key="GridCell.Tab.1.right" timestamp="1605596136410">
+      <screen x="1440" y="-103" width="1920" height="1080" />
+    </state>
+    <state width="1396" height="462" key="GridCell.Tab.1.right/0.0.1440.900/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1605596136410" />
+    <state width="1876" height="459" key="GridCell.Tab.1.right/0.23.1440.821/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1603268875879" />
+    <state width="1878" height="443" key="GridCell.Tab.1.right/0.23.1440.821/1440.-80.1920.1057@1440.-80.1920.1057" timestamp="1597652540592" />
+    <state width="1876" height="497" key="GridCell.Tab.1.right/0.23.1440.822/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1603423642166" />
+    <state width="1876" height="497" key="GridCell.Tab.1.right/0.23.1440.822/1440.-80.1920.1057@1440.-80.1920.1057" timestamp="1603423652423" />
+    <state width="1876" height="497" key="GridCell.Tab.1.right/0.23.1440.877/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1604917415851" />
+    <state x="1938" y="99" key="Maven.ArtifactSearchDialog" timestamp="1602664742067">
+      <screen x="1440" y="-103" width="1920" height="1080" />
+    </state>
+    <state x="1938" y="99" key="Maven.ArtifactSearchDialog/0.0.1440.900/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1602664742067" />
+    <state x="1888" y="18" width="1440" height="823" key="SettingsEditor" timestamp="1602759696373">
+      <screen x="1440" y="-103" width="1920" height="1080" />
+    </state>
+    <state x="1888" y="18" key="SettingsEditor/0.0.1440.900/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1602759696373" />
+    <state x="0" y="23" width="1440" height="823" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1602490183147" />
+    <state x="1888" y="18" key="SettingsEditor/0.23.1440.877/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1602759619709" />
+    <state x="2000" y="177" key="Vcs.Push.Dialog.v2" timestamp="1598515904646">
+      <screen x="1440" y="-103" width="1920" height="1080" />
+    </state>
+    <state x="2000" y="177" key="Vcs.Push.Dialog.v2/0.0.1440.900/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1598515904646" />
+    <state x="1539" y="-4" width="1720" height="880" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1602667387234">
+      <screen x="1440" y="-103" width="1920" height="1080" />
+    </state>
+    <state x="1539" y="-4" width="1720" height="880" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1440.900/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1601013371213" />
+    <state x="1539" y="-4" width="1720" height="880" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1440.877/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1602667387234" />
+    <state x="1908" y="91" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1602666754984">
+      <screen x="1440" y="-103" width="1920" height="1080" />
+    </state>
+    <state x="1908" y="91" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1440.900/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1602666754984" />
+    <state x="2080" y="194" width="782" height="550" key="find.popup" timestamp="1603265703060">
+      <screen x="1440" y="-103" width="1920" height="1080" />
+    </state>
+    <state x="2080" y="194" width="782" height="550" key="find.popup/0.0.1440.900/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1603265703060" />
+    <state x="2080" y="194" width="782" height="550" key="find.popup/0.23.1440.877/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1598514376859" />
+    <state x="1557" y="-71" key="new project wizard" timestamp="1605583548100">
+      <screen x="1440" y="-103" width="1920" height="1080" />
+    </state>
+    <state x="1557" y="-71" key="new project wizard/0.0.1440.900/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1605583548100" />
+    <state x="88" y="27" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1602490881786" />
+    <state x="2065" y="138" width="670" height="676" key="search.everywhere.popup" timestamp="1604629252263">
+      <screen x="1440" y="-103" width="1920" height="1080" />
+    </state>
+    <state x="2065" y="138" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1604629252263" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jinfeng/flink/CassandraPojoSinkExample.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jinfeng/flink/CassandraPojoSinkExample.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.15/mysql-connector-java-8.0.15-sources.jar!/com/mysql/cj/jdbc/StatementWrapper.java</url>
+          <line>544</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/flink/src/main/java/com/jinfeng/flink/entity/ReflectiveDevice.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-java/1.7.1/flink-java-1.7.1-sources.jar!/org/apache/flink/api/java/DataSet.java</url>
+          <line>1784</line>
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/datastax/cassandra/cassandra-driver-core/3.7.0/cassandra-driver-core-3.7.0-sources.jar!/com/datastax/driver/core/CodecRegistry.java</url>
+          <line>677</line>
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/datastax/cassandra/cassandra-driver-core/3.7.0/cassandra-driver-core-3.7.0-sources.jar!/com/datastax/driver/core/TypeCodec.java</url>
+          <line>344</line>
+          <option name="timeStamp" value="159" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-connector-cassandra_2.11/1.7.2/flink-connector-cassandra_2.11-1.7.2.jar!/com/datastax/driver/core/CodecRegistry.class</url>
+          <line>311</line>
+          <option name="timeStamp" value="186" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-connector-cassandra_2.11/1.7.2/flink-connector-cassandra_2.11-1.7.2.jar!/com/datastax/driver/core/AbstractGettableByIndexData.class</url>
+          <line>55</line>
+          <option name="timeStamp" value="189" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-connector-cassandra_2.11/1.7.2/flink-connector-cassandra_2.11-1.7.2.jar!/com/datastax/driver/core/DefaultPreparedStatement.class</url>
+          <line>105</line>
+          <option name="timeStamp" value="191" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-connector-cassandra_2.11/1.7.2/flink-connector-cassandra_2.11-1.7.2-sources.jar!/org/apache/flink/batch/connectors/cassandra/CassandraOutputFormatBase.java</url>
+          <line>98</line>
+          <option name="timeStamp" value="192" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-connector-cassandra_2.11/1.7.2/flink-connector-cassandra_2.11-1.7.2.jar!/com/datastax/driver/core/CodecRegistry.class</url>
+          <line>139</line>
+          <option name="timeStamp" value="219" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-connector-cassandra_2.11/1.7.2/flink-connector-cassandra_2.11-1.7.2.jar!/com/datastax/driver/core/CodecRegistry.class</url>
+          <line>104</line>
+          <option name="timeStamp" value="265" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-connector-cassandra_2.11/1.7.2/flink-connector-cassandra_2.11-1.7.2.jar!/com/datastax/driver/core/AbstractData.class</url>
+          <line>612</line>
+          <option name="timeStamp" value="301" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-connector-cassandra_2.11/1.7.2/flink-connector-cassandra_2.11-1.7.2.jar!/com/datastax/driver/core/BoundStatement.class</url>
+          <line>395</line>
+          <option name="timeStamp" value="302" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-connector-cassandra_2.11/1.7.2/flink-connector-cassandra_2.11-1.7.2.jar!/com/datastax/driver/mapping/Mapper.class</url>
+          <line>146</line>
+          <option name="timeStamp" value="313" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-connector-cassandra_2.11/1.8.0/flink-connector-cassandra_2.11-1.8.0.jar!/com/datastax/driver/core/CodecRegistry.class</url>
+          <line>130</line>
+          <option name="timeStamp" value="317" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../flink/flink-connectors/flink-connector-cassandra/target/flink-connector-cassandra_2.11-1.8.0.jar!/com/datastax/driver/core/CodecRegistry.class</url>
+          <line>221</line>
+          <option name="timeStamp" value="323" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../flink/flink-connectors/flink-connector-cassandra/target/flink-connector-cassandra_2.11-1.8.0.jar!/com/datastax/driver/core/CodecRegistry.class</url>
+          <line>303</line>
+          <option name="timeStamp" value="324" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../flink/flink-connectors/flink-connector-cassandra/target/flink-connector-cassandra_2.11-1.8.0.jar!/com/datastax/driver/core/CodecRegistry.class</url>
+          <line>312</line>
+          <option name="timeStamp" value="325" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../flink/flink-connectors/flink-connector-cassandra/target/flink-connector-cassandra_2.11-1.8.0.jar!/com/datastax/driver/core/CodecRegistry.class</url>
+          <line>332</line>
+          <option name="timeStamp" value="326" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../flink/flink-connectors/flink-connector-cassandra/target/flink-connector-cassandra_2.11-1.8.0.jar!/com/datastax/driver/core/CodecRegistry.class</url>
+          <line>333</line>
+          <option name="timeStamp" value="327" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../flink/flink-connectors/flink-connector-cassandra/target/flink-connector-cassandra_2.11-1.8.0.jar!/com/datastax/driver/core/CodecRegistry.class</url>
+          <line>337</line>
+          <option name="timeStamp" value="328" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/flink/src/main/java/com/jinfeng/flink/entity/ReflectiveDeviceCase.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="354" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/flink/src/main/java/com/jinfeng/flink/example/FlinkCassandraTuple.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="391" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-connector-cassandra_2.11/1.8.0/flink-connector-cassandra_2.11-1.8.0.jar!/com/datastax/driver/mapping/Mapper.class</url>
+          <line>179</line>
+          <option name="timeStamp" value="397" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-connector-cassandra_2.11/1.8.0/flink-connector-cassandra_2.11-1.8.0.jar!/com/datastax/driver/mapping/Mapper.class</url>
+          <line>183</line>
+          <option name="timeStamp" value="398" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-connector-cassandra_2.11/1.8.0/flink-connector-cassandra_2.11-1.8.0-sources.jar!/org/apache/flink/streaming/connectors/cassandra/CassandraSink.java</url>
+          <line>212</line>
+          <option name="timeStamp" value="409" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/datastax/spark/spark-cassandra-connector_2.11/2.4.0/spark-cassandra-connector_2.11-2.4.0.jar!/com/datastax/driver/core/querybuilder/BuiltStatement.class</url>
+          <line>165</line>
+          <option name="timeStamp" value="428" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/datastax/spark/spark-cassandra-connector_2.11/2.4.0/spark-cassandra-connector_2.11-2.4.0.jar!/com/datastax/driver/core/querybuilder/BuiltStatement.class</url>
+          <line>38</line>
+          <option name="timeStamp" value="429" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/datastax/cassandra/cassandra-driver-core/3.7.0/cassandra-driver-core-3.7.0-sources.jar!/com/datastax/driver/core/querybuilder/Insert.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="430" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/datastax/cassandra/cassandra-driver-mapping/3.7.0/cassandra-driver-mapping-3.7.0-sources.jar!/com/datastax/driver/mapping/Mapper.java</url>
+          <line>271</line>
+          <option name="timeStamp" value="431" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/datastax/cassandra/cassandra-driver-mapping/3.7.0/cassandra-driver-mapping-3.7.0-sources.jar!/com/datastax/driver/mapping/Mapper.java</url>
+          <line>257</line>
+          <option name="timeStamp" value="432" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/datastax/cassandra/cassandra-driver-mapping/3.7.0/cassandra-driver-mapping-3.7.0-sources.jar!/com/datastax/driver/mapping/Mapper.java</url>
+          <line>352</line>
+          <option name="timeStamp" value="433" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/datastax/spark/spark-cassandra-connector_2.11/2.4.0/spark-cassandra-connector_2.11-2.4.0.jar!/com/datastax/driver/core/CodecRegistry.class</url>
+          <line>183</line>
+          <option name="timeStamp" value="446" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/datastax/spark/spark-cassandra-connector_2.11/2.4.0/spark-cassandra-connector_2.11-2.4.0.jar!/com/datastax/driver/core/CodecRegistry.class</url>
+          <line>172</line>
+          <option name="timeStamp" value="447" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/datastax/spark/spark-cassandra-connector_2.11/2.4.0/spark-cassandra-connector_2.11-2.4.0.jar!/com/datastax/driver/core/BoundStatement.class</url>
+          <line>90</line>
+          <option name="timeStamp" value="457" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/datastax/spark/spark-cassandra-connector_2.11/2.4.0/spark-cassandra-connector_2.11-2.4.0.jar!/com/datastax/driver/core/BoundStatement.class</url>
+          <line>93</line>
+          <option name="timeStamp" value="458" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/datastax/spark/spark-cassandra-connector_2.11/2.4.0/spark-cassandra-connector_2.11-2.4.0.jar!/com/datastax/driver/core/BoundStatement.class</url>
+          <line>107</line>
+          <option name="timeStamp" value="459" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/clickhouse/src/main/java/com/jinfeng/clickhouse/ClickHouseFlinkSink.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="483" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/ru/ivi/opensource/flink-clickhouse-sink/1.0.0/flink-clickhouse-sink-1.0.0.jar!/ru/ivi/opensource/flinkclickhousesink/ClickhouseSink.class</url>
+          <line>24</line>
+          <option name="timeStamp" value="485" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.10/1.3.2/flink-streaming-java_2.10-1.3.2.jar!/org/apache/flink/streaming/api/environment/LocalStreamEnvironment.class</url>
+          <line>53</line>
+          <option name="timeStamp" value="486" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.10/1.3.2/flink-streaming-java_2.10-1.3.2.jar!/org/apache/flink/streaming/api/environment/LocalStreamEnvironment.class</url>
+          <line>54</line>
+          <option name="timeStamp" value="487" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../flink-clickhouse-sink/target/flink-clickhouse-sink-1.0.0-SNAPSHOT.jar!/ru/ivi/opensource/flinkclickhousesink/ClickhouseSink.class</url>
+          <line>24</line>
+          <option name="timeStamp" value="488" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../flink-clickhouse-sink/target/flink-clickhouse-sink-1.0.0-SNAPSHOT.jar!/ru/ivi/opensource/flinkclickhousesink/ClickhouseSink.class</url>
+          <line>37</line>
+          <option name="timeStamp" value="489" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../flink-clickhouse-sink/target/flink-clickhouse-sink-1.0.0-SNAPSHOT.jar!/ru/ivi/opensource/flinkclickhousesink/ClickhouseSink.class</url>
+          <line>42</line>
+          <option name="timeStamp" value="494" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../flink-clickhouse-sink/target/flink-clickhouse-sink-1.0.0-SNAPSHOT.jar!/ru/ivi/opensource/flinkclickhousesink/ClickhouseSink.class</url>
+          <line>44</line>
+          <option name="timeStamp" value="495" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../flink-clickhouse-sink/target/flink-clickhouse-sink-1.0.0-SNAPSHOT.jar!/ru/ivi/opensource/flinkclickhousesink/applied/ClickhouseSinkBuffer.class</url>
+          <line>42</line>
+          <option name="timeStamp" value="497" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../flink-clickhouse-sink/target/flink-clickhouse-sink-1.0.0-SNAPSHOT.jar!/ru/ivi/opensource/flinkclickhousesink/applied/ClickhouseSinkBuffer.class</url>
+          <line>41</line>
+          <option name="timeStamp" value="501" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../flink-clickhouse-sink/target/flink-clickhouse-sink-1.0.0-SNAPSHOT.jar!/ru/ivi/opensource/flinkclickhousesink/applied/ClickhouseSinkBuffer.class</url>
+          <line>40</line>
+          <option name="timeStamp" value="502" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../flink-clickhouse-sink/target/flink-clickhouse-sink-1.0.0-SNAPSHOT.jar!/ru/ivi/opensource/flinkclickhousesink/applied/ClickhouseSinkBuffer.class</url>
+          <line>53</line>
+          <option name="timeStamp" value="503" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../flink-clickhouse-sink/target/flink-clickhouse-sink-1.0.0-SNAPSHOT.jar!/ru/ivi/opensource/flinkclickhousesink/applied/ClickhouseSinkBuffer.class</url>
+          <line>46</line>
+          <option name="timeStamp" value="504" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../flink-clickhouse-sink/target/flink-clickhouse-sink-1.0.0-SNAPSHOT.jar!/ru/ivi/opensource/flinkclickhousesink/applied/ClickhouseSinkBuffer.class</url>
+          <line>47</line>
+          <option name="timeStamp" value="505" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../flink-clickhouse-sink/target/flink-clickhouse-sink-1.0.0-SNAPSHOT.jar!/ru/ivi/opensource/flinkclickhousesink/applied/ClickhouseSinkBuffer.class</url>
+          <line>55</line>
+          <option name="timeStamp" value="506" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../flink-clickhouse-sink/target/flink-clickhouse-sink-1.0.0-SNAPSHOT.jar!/ru/ivi/opensource/flinkclickhousesink/applied/ClickhouseSinkBuffer.class</url>
+          <line>57</line>
+          <option name="timeStamp" value="507" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../flink-clickhouse-sink/target/flink-clickhouse-sink-1.0.0-SNAPSHOT.jar!/ru/ivi/opensource/flinkclickhousesink/applied/ClickhouseSinkBuffer.class</url>
+          <line>61</line>
+          <option name="timeStamp" value="508" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../flink-clickhouse-sink/target/flink-clickhouse-sink-1.0.0-SNAPSHOT.jar!/ru/ivi/opensource/flinkclickhousesink/applied/ClickhouseSinkBuffer.class</url>
+          <line>54</line>
+          <option name="timeStamp" value="510" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../flink-clickhouse-sink/target/flink-clickhouse-sink-1.0.0-SNAPSHOT.jar!/ru/ivi/opensource/flinkclickhousesink/applied/ClickhouseWriter.class</url>
+          <line>84</line>
+          <option name="timeStamp" value="511" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../flink-clickhouse-sink/target/flink-clickhouse-sink-1.0.0-SNAPSHOT.jar!/ru/ivi/opensource/flinkclickhousesink/applied/ClickhouseWriter.class</url>
+          <line>88</line>
+          <option name="timeStamp" value="512" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../flink-clickhouse-sink/target/flink-clickhouse-sink-1.0.0-SNAPSHOT.jar!/ru/ivi/opensource/flinkclickhousesink/applied/ClickhouseWriter.class</url>
+          <line>86</line>
+          <option name="timeStamp" value="513" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../flink-clickhouse-sink/target/flink-clickhouse-sink-1.0.0-SNAPSHOT.jar!/ru/ivi/opensource/flinkclickhousesink/applied/ClickhouseSinkBuffer.class</url>
+          <line>56</line>
+          <option name="timeStamp" value="514" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/clickhouse/src/main/java/com/jinfeng/clickhouse/ClickHouseKafkaProto.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="533" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/clickhouse/src/main/java/com/jinfeng/clickhouse/ClickHouseKafkaProto.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="534" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/clickhouse/src/main/java/com/jinfeng/clickhouse/utils/ClickHouseJdbcUtil.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="536" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/clickhouse_server/src/main/java/com/jinfeng/clickhouse/config/ClickHousePoolConnection.java</url>
+          <line>95</line>
+          <option name="timeStamp" value="538" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/clickhouse_server/src/main/java/com/jinfeng/clickhouse/config/ClickHousePoolConnection.java</url>
+          <line>92</line>
+          <option name="timeStamp" value="539" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/clickhouse_server/src/main/java/com/jinfeng/clickhouse/config/ClickHousePoolConnection.java</url>
+          <line>93</line>
+          <option name="timeStamp" value="540" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/clickhouse_server/src/main/java/com/jinfeng/clickhouse/config/ClickHousePoolConnection.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="541" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/clickhouse_server/src/main/java/com/jinfeng/clickhouse/config/ClickHousePoolConnection.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="542" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/clickhouse_server/src/main/java/com/jinfeng/clickhouse/config/ClickHousePoolConnection.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="543" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/clickhouse_server/src/main/java/com/jinfeng/clickhouse/config/ClickHousePoolConnection.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="544" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/clickhouse_server/src/main/java/com/jinfeng/clickhouse/config/ClickHousePoolConnection.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="545" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/clickhouse_server/src/main/java/com/jinfeng/clickhouse/config/ClickHousePoolConnection.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="546" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/clickhouse_server/src/main/java/com/jinfeng/clickhouse/config/DataSourceConfig.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="555" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/clickhouse_server/src/main/java/com/jinfeng/clickhouse/utils/ClickHouseJdbcUtil.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="556" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/clickhouse_server/src/main/java/com/jinfeng/clickhouse/config/DataSourceConfig.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="557" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/clickhouse_server/src/main/java/com/jinfeng/clickhouse/config/ClickHouseDataSourceConfig.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="589" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/ru/yandex/clickhouse/clickhouse-jdbc/0.1.53/clickhouse-jdbc-0.1.53-sources.jar!/ru/yandex/clickhouse/ClickHousePreparedStatementImpl.java</url>
+          <line>362</line>
+          <option name="timeStamp" value="599" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/ru/yandex/clickhouse/clickhouse-jdbc/0.1.53/clickhouse-jdbc-0.1.53-sources.jar!/ru/yandex/clickhouse/ClickHouseStatementImpl.java</url>
+          <line>772</line>
+          <option name="timeStamp" value="602" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/ru/yandex/clickhouse/clickhouse-jdbc/0.1.53/clickhouse-jdbc-0.1.53-sources.jar!/ru/yandex/clickhouse/ClickHouseStatementImpl.java</url>
+          <line>780</line>
+          <option name="timeStamp" value="603" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/ru/yandex/clickhouse/clickhouse-jdbc/0.1.53/clickhouse-jdbc-0.1.53-sources.jar!/ru/yandex/clickhouse/ClickHouseStatementImpl.java</url>
+          <line>781</line>
+          <option name="timeStamp" value="604" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/ru/yandex/clickhouse/clickhouse-jdbc/0.1.53/clickhouse-jdbc-0.1.53-sources.jar!/ru/yandex/clickhouse/ClickHouseStatementImpl.java</url>
+          <line>783</line>
+          <option name="timeStamp" value="605" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/ru/yandex/clickhouse/clickhouse-jdbc/0.1.53/clickhouse-jdbc-0.1.53-sources.jar!/ru/yandex/clickhouse/ClickHouseStatementImpl.java</url>
+          <line>784</line>
+          <option name="timeStamp" value="606" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/ru/yandex/clickhouse/clickhouse-jdbc/0.1.53/clickhouse-jdbc-0.1.53-sources.jar!/ru/yandex/clickhouse/ClickHouseStatementImpl.java</url>
+          <line>785</line>
+          <option name="timeStamp" value="607" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/ru/yandex/clickhouse/clickhouse-jdbc/0.1.53/clickhouse-jdbc-0.1.53-sources.jar!/ru/yandex/clickhouse/ClickHouseStatementImpl.java</url>
+          <line>787</line>
+          <option name="timeStamp" value="608" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/ru/yandex/clickhouse/clickhouse-jdbc/0.1.53/clickhouse-jdbc-0.1.53-sources.jar!/ru/yandex/clickhouse/ClickHouseStatementImpl.java</url>
+          <line>788</line>
+          <option name="timeStamp" value="609" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/ru/yandex/clickhouse/clickhouse-jdbc/0.1.53/clickhouse-jdbc-0.1.53-sources.jar!/ru/yandex/clickhouse/ClickHouseStatementImpl.java</url>
+          <line>789</line>
+          <option name="timeStamp" value="610" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/ru/yandex/clickhouse/clickhouse-jdbc/0.1.53/clickhouse-jdbc-0.1.53-sources.jar!/ru/yandex/clickhouse/ClickHouseStatementImpl.java</url>
+          <line>790</line>
+          <option name="timeStamp" value="611" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spark/src/main/java/com/jinfeng/util/CassandraUtil.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="657" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spark/src/main/java/com/jinfeng/util/CassandraUtil.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="659" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spark/src/main/java/com/jinfeng/util/CassandraUtil.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="660" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spark/src/main/java/com/jinfeng/util/CassandraUtil.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="661" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spark/src/main/java/com/jinfeng/util/CassandraUtil.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="662" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spark/src/main/java/com/jinfeng/util/CassandraUtil.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="669" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/flink/src/main/java/com/jinfeng/flink/entity/ReflectiveDeviceCase.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="686" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/clickhouse/src/main/java/com/jinfeng/clickhouse/ClickHouseFlinkSink.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="687" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/clickhouse/src/main/java/com/jinfeng/clickhouse/ClickHouseFlinkSink.java</url>
+          <line>95</line>
+          <option name="timeStamp" value="688" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hive/src/main/java/com/jinfeng/hive/util/QueryInstance.java</url>
+          <line>134</line>
+          <option name="timeStamp" value="699" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hive/src/main/java/com/jinfeng/hive/util/QueryInstance.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="703" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hive/src/main/java/com/jinfeng/hive/util/QueryInstance.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="705" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hive/src/main/java/com/jinfeng/hive/util/QueryInstance.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="706" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hive/src/main/java/com/jinfeng/hive/util/QueryInstance.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="707" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hive/src/main/java/com/jinfeng/hive/util/QueryInstance.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="708" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/clickhouse_server/src/main/java/com/jinfeng/clickhouse/example/DemoApplication.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="711" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/clickhouse_server/src/main/java/com/jinfeng/clickhouse/example/DemoApplication.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="712" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/clickhouse_server/src/main/java/com/jinfeng/clickhouse/example/DemoApplication.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="713" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/example/src/main/java/com/jinfeng/example/BundleMatchServer.java</url>
+          <line>93</line>
+          <option name="timeStamp" value="721" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/example/src/main/java/com/jinfeng/example/BundleMatchServer.java</url>
+          <line>173</line>
+          <option name="timeStamp" value="722" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/example/src/main/java/com/jinfeng/example/BundleMatchServer.java</url>
+          <line>172</line>
+          <option name="timeStamp" value="723" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/azkaban/src/main/java/com/jinfeng/azkaban/utils/AzkabanHandle.java</url>
+          <line>153</line>
+          <option name="timeStamp" value="731" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/azkaban/src/main/java/com/jinfeng/azkaban/utils/AzkabanHandle.java</url>
+          <line>157</line>
+          <option name="timeStamp" value="734" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/azkaban/src/main/java/com/jinfeng/azkaban/utils/AzkabanHandle.java</url>
+          <line>156</line>
+          <option name="timeStamp" value="735" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/spark/src/main/scala/com/jinfeng/spark/example/jdbc/SparkReadJdbc.scala</url>
+          <line>57</line>
+          <option name="timeStamp" value="331" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/spark/src/main/scala/com/jinfeng/spark/example/jdbc/SparkReadJdbc.scala</url>
+          <line>53</line>
+          <option name="timeStamp" value="332" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/spark/src/main/scala/com/jinfeng/spark/example/fmp/ParseJob.scala</url>
+          <line>137</line>
+          <option name="timeStamp" value="335" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/spark/src/main/scala/com/jinfeng/spark/example/fmp/ParseJob.scala</url>
+          <line>88</line>
+          <option name="timeStamp" value="337" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/spark/src/main/scala/com/jinfeng/spark/example/fmp/ParseJob.scala</url>
+          <line>115</line>
+          <option name="timeStamp" value="340" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/spark/src/main/scala/com/jinfeng/spark/example/fmp/ParseJob.scala</url>
+          <line>113</line>
+          <option name="timeStamp" value="341" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/spark/src/main/scala/com/jinfeng/spark/example/fmp/ParseJob.scala</url>
+          <line>118</line>
+          <option name="timeStamp" value="342" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/spark/src/main/scala/com/jinfeng/spark/example/fmp/ParseJob.scala</url>
+          <line>112</line>
+          <option name="timeStamp" value="343" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/spark/src/main/scala/com/jinfeng/spark/example/fmp/ParseJob.scala</url>
+          <line>98</line>
+          <option name="timeStamp" value="344" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/spark/src/main/scala/com/jinfeng/spark/example/fmp/ParseJob.scala</url>
+          <line>106</line>
+          <option name="timeStamp" value="345" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/spark/src/main/scala/com/jinfeng/spark/example/fmp/ParseJob.scala</url>
+          <line>109</line>
+          <option name="timeStamp" value="346" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/spark/src/main/scala/com/jinfeng/spark/example/fmp/ParseJob.scala</url>
+          <line>107</line>
+          <option name="timeStamp" value="347" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/spark/src/main/scala/com/jinfeng/spark/example/cassandra/DmpCassandraSink.scala</url>
+          <line>68</line>
+          <option name="timeStamp" value="373" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/spark/src/main/scala/com/jinfeng/spark/example/cassandra/DmpCassandraSink.scala</url>
+          <line>49</line>
+          <option name="timeStamp" value="379" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/spark/src/main/scala/com/jinfeng/spark/example/cassandra/DmpCassandraSink.scala</url>
+          <line>55</line>
+          <option name="timeStamp" value="380" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/spark/src/main/scala/com/jinfeng/spark/example/cassandra/DmpCassandraSink.scala</url>
+          <line>43</line>
+          <option name="timeStamp" value="381" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/spark/src/main/scala/com/jinfeng/spark/example/cassandra/DmpCassandraSink.scala</url>
+          <line>44</line>
+          <option name="timeStamp" value="382" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/spark/src/main/scala/com/jinfeng/spark/example/cassandra/DmpCassandraExample.scala</url>
+          <line>36</line>
+          <option name="timeStamp" value="414" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/datastax/spark/spark-cassandra-connector_2.11/2.4.0/spark-cassandra-connector_2.11-2.4.0-sources.jar!/com/datastax/spark/connector/rdd/CassandraTableScanRDD.scala</url>
+          <line>316</line>
+          <option name="timeStamp" value="421" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/datastax/spark/spark-cassandra-connector_2.11/2.4.0/spark-cassandra-connector_2.11-2.4.0-sources.jar!/com/datastax/spark/connector/rdd/CassandraTableScanRDD.scala</url>
+          <line>313</line>
+          <option name="timeStamp" value="422" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/datastax/spark/spark-cassandra-connector_2.11/2.4.0/spark-cassandra-connector_2.11-2.4.0-sources.jar!/com/datastax/spark/connector/rdd/CassandraTableScanRDD.scala</url>
+          <line>310</line>
+          <option name="timeStamp" value="423" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/datastax/spark/spark-cassandra-connector_2.11/2.4.0/spark-cassandra-connector_2.11-2.4.0-sources.jar!/com/datastax/spark/connector/writer/BoundStatementBuilder.scala</url>
+          <line>57</line>
+          <option name="timeStamp" value="424" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/datastax/spark/spark-cassandra-connector_2.11/2.4.0/spark-cassandra-connector_2.11-2.4.0-sources.jar!/com/datastax/spark/connector/writer/BoundStatementBuilder.scala</url>
+          <line>53</line>
+          <option name="timeStamp" value="425" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/datastax/spark/spark-cassandra-connector_2.11/2.4.0/spark-cassandra-connector_2.11-2.4.0-sources.jar!/com/datastax/spark/connector/RDDFunctions.scala</url>
+          <line>35</line>
+          <option name="timeStamp" value="434" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.4.0/spark-core_2.11-2.4.0-sources.jar!/org/apache/spark/scheduler/DAGScheduler.scala</url>
+          <line>764</line>
+          <option name="timeStamp" value="443" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.4.0/spark-core_2.11-2.4.0-sources.jar!/org/apache/spark/scheduler/DAGScheduler.scala</url>
+          <line>974</line>
+          <option name="timeStamp" value="444" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/datastax/spark/spark-cassandra-connector_2.11/2.4.0/spark-cassandra-connector_2.11-2.4.0-sources.jar!/com/datastax/spark/connector/util/CodecRegistryUtil.scala</url>
+          <line>7</line>
+          <option name="timeStamp" value="448" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/datastax/spark/spark-cassandra-connector_2.11/2.4.0/spark-cassandra-connector_2.11-2.4.0-sources.jar!/com/datastax/spark/connector/writer/BoundStatementBuilder.scala</url>
+          <line>71</line>
+          <option name="timeStamp" value="449" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/datastax/spark/spark-cassandra-connector_2.11/2.4.0/spark-cassandra-connector_2.11-2.4.0-sources.jar!/com/datastax/spark/connector/writer/BoundStatementBuilder.scala</url>
+          <line>83</line>
+          <option name="timeStamp" value="450" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/datastax/spark/spark-cassandra-connector_2.11/2.4.0/spark-cassandra-connector_2.11-2.4.0-sources.jar!/com/datastax/spark/connector/writer/BoundStatementBuilder.scala</url>
+          <line>105</line>
+          <option name="timeStamp" value="451" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/datastax/spark/spark-cassandra-connector_2.11/2.4.0/spark-cassandra-connector_2.11-2.4.0-sources.jar!/com/datastax/spark/connector/writer/BoundStatementBuilder.scala</url>
+          <line>95</line>
+          <option name="timeStamp" value="452" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/datastax/spark/spark-cassandra-connector_2.11/2.4.0/spark-cassandra-connector_2.11-2.4.0-sources.jar!/com/datastax/spark/connector/writer/BoundStatementBuilder.scala</url>
+          <line>100</line>
+          <option name="timeStamp" value="453" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/datastax/spark/spark-cassandra-connector_2.11/2.4.0/spark-cassandra-connector_2.11-2.4.0-sources.jar!/com/datastax/spark/connector/writer/BoundStatementBuilder.scala</url>
+          <line>104</line>
+          <option name="timeStamp" value="454" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/datastax/spark/spark-cassandra-connector_2.11/2.4.0/spark-cassandra-connector_2.11-2.4.0-sources.jar!/com/datastax/spark/connector/writer/BoundStatementBuilder.scala</url>
+          <line>98</line>
+          <option name="timeStamp" value="455" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/datastax/spark/spark-cassandra-connector_2.11/2.4.0/spark-cassandra-connector_2.11-2.4.0-sources.jar!/com/datastax/spark/connector/writer/BoundStatementBuilder.scala</url>
+          <line>96</line>
+          <option name="timeStamp" value="456" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/datastax/spark/spark-cassandra-connector_2.11/2.4.0/spark-cassandra-connector_2.11-2.4.0-sources.jar!/com/datastax/spark/connector/writer/SqlRowWriter.scala</url>
+          <line>22</line>
+          <option name="timeStamp" value="460" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/datastax/spark/spark-cassandra-connector_2.11/2.4.0/spark-cassandra-connector_2.11-2.4.0-sources.jar!/com/datastax/spark/connector/writer/SqlRowWriter.scala</url>
+          <line>25</line>
+          <option name="timeStamp" value="461" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/datastax/spark/spark-cassandra-connector_2.11/2.4.0/spark-cassandra-connector_2.11-2.4.0-sources.jar!/com/datastax/spark/connector/writer/SqlRowWriter.scala</url>
+          <line>24</line>
+          <option name="timeStamp" value="462" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/datastax/spark/spark-cassandra-connector_2.11/2.4.0/spark-cassandra-connector_2.11-2.4.0-sources.jar!/com/datastax/spark/connector/types/TypeConverter.scala</url>
+          <line>791</line>
+          <option name="timeStamp" value="465" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/datastax/spark/spark-cassandra-connector_2.11/2.4.0/spark-cassandra-connector_2.11-2.4.0-sources.jar!/com/datastax/spark/connector/writer/SqlRowWriter.scala</url>
+          <line>17</line>
+          <option name="timeStamp" value="467" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/clickhouse/src/main/scala/com/jinfeng/clickhouse/util/DataFrameExt.scala</url>
+          <line>213</line>
+          <option name="timeStamp" value="576" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/clickhouse/src/main/scala/com/jinfeng/clickhouse/util/DataFrameExt.scala</url>
+          <line>218</line>
+          <option name="timeStamp" value="577" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/clickhouse/src/main/scala/com/jinfeng/clickhouse/util/DataFrameExt.scala</url>
+          <line>212</line>
+          <option name="timeStamp" value="578" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/clickhouse/src/main/scala/com/jinfeng/clickhouse/util/DataFrameExt.scala</url>
+          <line>235</line>
+          <option name="timeStamp" value="579" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/clickhouse/src/main/scala/com/jinfeng/clickhouse/util/DataFrameExt.scala</url>
+          <line>200</line>
+          <option name="timeStamp" value="584" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/clickhouse/src/main/scala/com/jinfeng/clickhouse/util/DataFrameExt.scala</url>
+          <line>201</line>
+          <option name="timeStamp" value="585" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/spark/src/main/scala/com/jinfeng/spark/example/example/SparkTest.scala</url>
+          <line>49</line>
+          <option name="timeStamp" value="590" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/spark/src/main/scala/com/jinfeng/spark/example/example/SparkTest.scala</url>
+          <line>48</line>
+          <option name="timeStamp" value="591" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/spark/src/main/scala/com/jinfeng/spark/example/example/SparkTest.scala</url>
+          <line>50</line>
+          <option name="timeStamp" value="592" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/spark/src/main/scala/com/jinfeng/spark/example/example/SparkTest.scala</url>
+          <line>51</line>
+          <option name="timeStamp" value="593" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/clickhouse/src/main/scala/com/jinfeng/clickhouse/dsp/RealtimeSerivceJob.scala</url>
+          <line>122</line>
+          <option name="timeStamp" value="596" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/clickhouse/src/main/scala/com/jinfeng/clickhouse/util/DataFrameExt.scala</url>
+          <line>135</line>
+          <option name="timeStamp" value="601" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/clickhouse/src/main/scala/com/jinfeng/clickhouse/util/DataFrameExt.scala</url>
+          <line>121</line>
+          <option name="timeStamp" value="614" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/clickhouse/src/main/scala/com/jinfeng/clickhouse/util/DataFrameExt.scala</url>
+          <line>124</line>
+          <option name="timeStamp" value="615" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/clickhouse/src/main/scala/com/jinfeng/clickhouse/util/DataFrameExt.scala</url>
+          <line>118</line>
+          <option name="timeStamp" value="616" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/clickhouse/src/main/scala/com/jinfeng/clickhouse/util/ClickHouseClient.scala</url>
+          <line>32</line>
+          <option name="timeStamp" value="620" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/spark/src/main/scala/com/jinfeng/spark/example/example/SparkExample.scala</url>
+          <line>98</line>
+          <option name="timeStamp" value="622" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/spark/src/main/scala/com/jinfeng/spark/example/example/SparkExample.scala</url>
+          <line>92</line>
+          <option name="timeStamp" value="623" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/spark/src/main/scala/com/jinfeng/spark/example/example/SparkExample.scala</url>
+          <line>89</line>
+          <option name="timeStamp" value="624" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/spark/src/main/scala/com/jinfeng/spark/example/example/SparkExample.scala</url>
+          <line>90</line>
+          <option name="timeStamp" value="625" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/spark/src/main/scala/com/jinfeng/spark/example/example/EtlExample.scala</url>
+          <line>63</line>
+          <option name="timeStamp" value="626" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/spark/src/main/scala/com/jinfeng/spark/example/example/EtlExample.scala</url>
+          <line>61</line>
+          <option name="timeStamp" value="627" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/spark/src/main/scala/com/jinfeng/spark/example/example/EtlExample.scala</url>
+          <line>62</line>
+          <option name="timeStamp" value="628" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/spark/src/main/scala/com/jinfeng/spark/example/example/EtlExample.scala</url>
+          <line>60</line>
+          <option name="timeStamp" value="629" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/spark/src/main/scala/com/jinfeng/spark/example/example/EtlExample.scala</url>
+          <line>59</line>
+          <option name="timeStamp" value="630" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/spark/src/main/scala/com/jinfeng/spark/example/example/SparkTest.scala</url>
+          <line>189</line>
+          <option name="timeStamp" value="641" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/spark/src/main/scala/com/jinfeng/spark/example/example/SparkTest.scala</url>
+          <line>196</line>
+          <option name="timeStamp" value="642" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/spark/src/main/scala/com/jinfeng/spark/example/example/SparkTest.scala</url>
+          <line>197</line>
+          <option name="timeStamp" value="643" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/spark/src/main/scala/com/jinfeng/spark/example/example/SparkTest.scala</url>
+          <line>212</line>
+          <option name="timeStamp" value="644" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/spark/src/main/scala/com/jinfeng/spark/example/example/SparkTest.scala</url>
+          <line>148</line>
+          <option name="timeStamp" value="646" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/spark/src/main/scala/com/jinfeng/spark/example/example/SparkTest.scala</url>
+          <line>142</line>
+          <option name="timeStamp" value="647" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/spark/src/main/scala/com/jinfeng/spark/example/example/Test.scala</url>
+          <line>33</line>
+          <option name="timeStamp" value="648" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/spark/src/main/scala/com/jinfeng/spark/example/example/Test.scala</url>
+          <line>31</line>
+          <option name="timeStamp" value="649" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/spark/src/main/scala/com/jinfeng/spark/example/example/Test.scala</url>
+          <line>78</line>
+          <option name="timeStamp" value="650" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/spark/src/main/scala/com/jinfeng/spark/example/example/JsonDemo.scala</url>
+          <line>54</line>
+          <option name="timeStamp" value="651" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/spark/src/main/scala/com/jinfeng/spark/example/example/JsonDemo.scala</url>
+          <line>61</line>
+          <option name="timeStamp" value="652" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/clickhouse/src/main/scala/com/jinfeng/clickhouse/util/DataFrameExt.scala</url>
+          <line>101</line>
+          <option name="timeStamp" value="653" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/clickhouse/src/main/scala/com/jinfeng/clickhouse/util/DataFrameExt.scala</url>
+          <line>97</line>
+          <option name="timeStamp" value="654" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/clickhouse/src/main/scala/com/jinfeng/clickhouse/util/DataFrameExt.scala</url>
+          <line>99</line>
+          <option name="timeStamp" value="655" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/common/src/main/scala/com.jinfeng.common.entity/CassandraUtilScala.scala</url>
+          <line>48</line>
+          <option name="timeStamp" value="656" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/spark/src/main/scala/com/jinfeng/spark/example/cassandra/DmpCassandraSink.scala</url>
+          <line>89</line>
+          <option name="timeStamp" value="658" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/example/src/main/scala/com/jinfeng/example/HelloWorld.scala</url>
+          <line>81</line>
+          <option name="timeStamp" value="719" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/example/src/main/scala/com/jinfeng/example/HelloWorld.scala</url>
+          <line>79</line>
+          <option name="timeStamp" value="720" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="ideajad">
+    <property name="annotate" value="false" />
+    <property name="annotateFully" value="false" />
+    <property name="braces" value="false" />
+    <property name="clear" value="false" />
+    <property name="confirmNavigationTriggeredDecompile" value="true" />
+    <property name="dead" value="true" />
+    <property name="defaultInitializers" value="false" />
+    <property name="dissassemblerOnly" value="false" />
+    <property name="fieldsFirst" value="true" />
+    <property name="fileExtension" value="java" />
+    <property name="fullyQualifiedNames" value="false" />
+    <property name="indentation" value="4" />
+    <property name="intRadix" value="10" />
+    <property name="lineNumbersAsComments" value="true" />
+    <property name="longRadix" value="10" />
+    <property name="maxStringLength" value="64" />
+    <property name="nocast" value="false" />
+    <property name="noclass" value="false" />
+    <property name="nocode" value="false" />
+    <property name="noconv" value="false" />
+    <property name="noctor" value="false" />
+    <property name="nodos" value="false" />
+    <property name="nofd" value="false" />
+    <property name="noinner" value="false" />
+    <property name="nolvt" value="false" />
+    <property name="nonlb" value="false" />
+    <property name="outputDirectory" value="" />
+    <property name="packFields" value="3" />
+    <property name="packImports" value="7" />
+    <property name="prefixNumericalClasses" value="_cls" />
+    <property name="prefixNumericalFields" value="_fld" />
+    <property name="prefixNumericalLocals" value="_lcl" />
+    <property name="prefixNumericalMethods" value="_mth" />
+    <property name="prefixNumericalParameters" value="_prm" />
+    <property name="prefixUnusedExceptions" value="_ex" />
+    <property name="readonly" value="false" />
+    <property name="safe" value="false" />
+    <property name="sort" value="false" />
+    <property name="spaceAfterKeyword" value="false" />
+    <property name="splitStringsAtNewline" value="false" />
+    <property name="useTabs" value="false" />
+  </component>
+</project>

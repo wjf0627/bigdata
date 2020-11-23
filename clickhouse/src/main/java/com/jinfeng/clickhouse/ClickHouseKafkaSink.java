@@ -21,6 +21,10 @@ public class ClickHouseKafkaSink {
     public static final String broker_list = "localhost:9092";
     public static final String topic = "kafka_topic";
 
+    public static final String[] devIds = new String[]{"0000073a-73da-4c31-a7d7-bcc33b4263fd","00004515-52b1-4f45-85f5-438b238679e7","0000b0fe-aa44-4d9e-9421-4c52a609b113",
+            "00010b77-a388-4c99-ba9e-4773016e33e0","000124a1-db9b-49a7-adeb-604b50875d31","00015ca0-300d-4d2d-8744-c471988a91e7","00017dc4-2122-4097-a3bf-aa1695843dc3",
+            "00020b0d-63c2-4855-892d-3a7340e48848","00020ede-c38b-4c0e-a94f-f080f635a4f5","00026d6c-0bd7-482d-a654-a17018af6066"};
+
     public static void writeToKafka() {
         Properties props = new Properties();
         props.put("bootstrap.servers", broker_list);
@@ -33,8 +37,8 @@ public class ClickHouseKafkaSink {
         CkDemo ckDemo = new CkDemo();
         ckDemo.setTimestamp(System.currentTimeMillis());
         Random random = new Random();
-        ckDemo.setLevel(String.valueOf(random.nextInt(5)));
-        ckDemo.setMessage(UUID.randomUUID().toString());
+        ckDemo.setLevel(String.valueOf(random.nextInt(10)));
+        ckDemo.setMessage(devIds[random.nextInt(10)]);
 
         ProducerRecord record = new ProducerRecord<String, String>(topic, null, null, JSON.toJSONString(ckDemo));
         producer.send(record);

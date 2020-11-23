@@ -1,7 +1,5 @@
 package com.jinfeng.clickhouse.pojo;
 
-import java.util.Date;
-
 /**
  * @package: com.jinfeng.clickhouse.pojo
  * @author: wangjf
@@ -14,11 +12,14 @@ public class DeviceExample {
 
     private String device_id;
 
-    private Date dt;
+    private String dt;
 
     private Integer flag;
 
-    public DeviceExample(String device_id, Date dt, Integer flag) {
+    public DeviceExample() {
+    }
+
+    public DeviceExample(String device_id, String dt, Integer flag) {
         this.device_id = device_id;
         this.dt = dt;
         this.flag = flag;
@@ -32,11 +33,11 @@ public class DeviceExample {
         this.device_id = device_id;
     }
 
-    public Date getDt() {
+    public String getDt() {
         return dt;
     }
 
-    public void setDt(Date dt) {
+    public void setDt(String dt) {
         this.dt = dt;
     }
 

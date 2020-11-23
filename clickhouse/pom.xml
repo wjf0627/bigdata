@@ -37,7 +37,10 @@
         <dependency>
             <groupId>ru.ivi.opensource</groupId>
             <artifactId>flink-clickhouse-sink</artifactId>
-            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.flink</groupId>
+            <artifactId>flink-connector-kafka_${scala.sdk.version}</artifactId>
         </dependency>
         <dependency>
             <groupId>org.apache.flink</groupId>
@@ -61,15 +64,8 @@
         </dependency>
         <dependency>
             <groupId>io.clickhouse</groupId>
-            <artifactId>spark-clickhouse-connector_2.11</artifactId>
-            <version>2.4.0_0.22</version>
-            <scope>system</scope>
-            <systemPath>${basedir}/src/main/resources/jars/spark-clickhouse-connector_2.11-2.4.0_0.22.jar</systemPath>
-        </dependency>
-        <dependency>
-            <groupId>org.scala-lang</groupId>
-            <artifactId>scala-xml</artifactId>
-            <version>2.11.0-M4</version>
+            <artifactId>spark-clickhouse-connector_2.12</artifactId>
+            <version>3.0.0_0.25</version>
         </dependency>
     </dependencies>
     <build>

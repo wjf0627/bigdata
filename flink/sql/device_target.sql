@@ -65,11 +65,11 @@ CREATE TABLE test.companies (name text PRIMARY KEY, address SET<FROZEN<address>>
 CREATE TABLE dmp_realtime_service.dmp_user_features
  (
     device_id text PRIMARY KEY,
-    age int ,
-    gender int,
-    interest frozen<set<text>>,
-    frequency frozen<set<tuple<text,text>>>,
-    install_apps frozen<set<text>>,
+    age text ,
+    gender text,
+    interest set<text>,
+    frequency map<text,int>,
+    install_apps set<text>,
     target_offer_list set<bigint>
 );
 
@@ -110,6 +110,9 @@ insert into dmp_realtime_service.dmp_user_features (device_id, age, gender, inte
 
 
 CREATE TABLE wangjf.flink_test (device_id String,status UInt64)ENGINE = Log;
+
+CREATE TABLE wangjf.flink_test (device_id String,dt DATE,flag INT) ENGINE = Log;
+
 
 CREATE TABLE kafka_demo (timestamp UInt64,level String, message String) ENGINE = Kafka('localhost:9092', 'kafka_topic', 'kafka_group', 'JSONEachRow');
 
