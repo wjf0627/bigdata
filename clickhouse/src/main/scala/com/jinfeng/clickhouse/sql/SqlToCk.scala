@@ -3,7 +3,6 @@ package com.jinfeng.clickhouse.sql
 import java.util.UUID
 
 import com.jinfeng.clickhouse.DeviceA
-import com.mobvista.dmp.server.entity.DeviceEntity.Device
 //  import com.jinfeng.clickhouse.util.ClickHouseConnectionFactory
 import org.apache.spark.sql.{SaveMode, SparkSession}
 

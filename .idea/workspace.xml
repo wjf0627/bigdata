@@ -23,52 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f982e6bb-11ad-40e3-9d07-ed4e039b46b8" name="Default Changelist" comment="init clickhouse">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/wangjf.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/hydra.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/qaplug_profiles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/azkaban/azkaban.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/azkaban/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/azkaban/src/main/java/com/jinfeng/azkaban/example/AzkabanDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/azkaban/src/main/java/com/jinfeng/azkaban/utils/AzkabanHandle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/azkaban/src/main/java/com/jinfeng/azkaban/utils/SSLUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clickhouse_server/src/main/java/com/jinfeng/clickhouse/example/DemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clickhouse_server/src/main/java/com/jinfeng/clickhouse/utils/ClickHouseJDBC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/jinfeng/common/utils/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/jinfeng/common/utils/DateUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/src/main/java/com/jinfeng/example/BundleClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/src/main/java/com/jinfeng/example/BundleMatchServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/src/main/java/com/jinfeng/example/PropertyUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/src/main/resources/logback-syslog.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hive/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hive/src/main/java/com/jinfeng/hive/example/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hive/src/main/java/com/jinfeng/hive/util/QueryInstance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hive/src/main/java/com/jinfeng/hive/util/QueryTool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickhouse/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/clickhouse/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickhouse/src/main/java/com/jinfeng/clickhouse/ClickHouseFlinkSink.java" beforeDir="false" afterPath="$PROJECT_DIR$/clickhouse/src/main/java/com/jinfeng/clickhouse/ClickHouseFlinkSink.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickhouse/src/main/java/com/jinfeng/clickhouse/ClickHouseKafkaSink.java" beforeDir="false" afterPath="$PROJECT_DIR$/clickhouse/src/main/java/com/jinfeng/clickhouse/ClickHouseKafkaSink.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickhouse/src/main/java/com/jinfeng/clickhouse/pojo/DeviceExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/clickhouse/src/main/java/com/jinfeng/clickhouse/pojo/DeviceExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickhouse_server/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/clickhouse_server/src/main/resources/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/src/main/scala/com/jinfeng/example/HelloWorld.scala" beforeDir="false" afterPath="$PROJECT_DIR$/example/src/main/scala/com/jinfeng/example/HelloWorld.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink/sql/device_target.sql" beforeDir="false" afterPath="$PROJECT_DIR$/flink/sql/device_target.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka/src/main/java/com/jinfeng/kafka/utils/ClickHouseKafkaSink.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka/src/main/java/com/jinfeng/kafka/utils/ClickHouseKafkaSink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clickhouse/src/main/scala/com/jinfeng/clickhouse/sql/SqlToCk.scala" beforeDir="false" afterPath="$PROJECT_DIR$/clickhouse/src/main/scala/com/jinfeng/clickhouse/sql/SqlToCk.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-cluster/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spark-cluster/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spark/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/src/main/scala/com/jinfeng/spark/example/example/SparkDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark/src/main/scala/com/jinfeng/spark/example/example/SparkDemo.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,11 +82,11 @@
       </set>
     </option>
   </component>
-  <component name="JupyterTrust" id="a9ea4f14-ab9f-4ba3-a2a4-83bcb1e31382" />
+  <component name="JupyterTrust" id="2a20937d-6fc7-4639-9110-7380027ffdae" />
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$PROJECT_DIR$/../../software/apache-maven" />
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -193,7 +153,9 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -211,11 +173,11 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558698937326" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="jdk.selected.PYTHON_MODULE" value="Python 3.6" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/example/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.24754901" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -322,6 +284,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ClickhouseServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="clickhouse_server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.jinfeng.clickhouse.ClickhouseServerApplication" />
@@ -330,20 +305,20 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.AzkabanDemo" />
       <item itemvalue="Application.BundleMatchServer" />
       <item itemvalue="Application.DemoApplication" />
       <item itemvalue="Application.HelloWorld" />
       <item itemvalue="Application.SparkTest1" />
       <item itemvalue="Spring Boot.ClickhouseServerApplication" />
-      <item itemvalue="Application.AzkabanDemo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AzkabanDemo" />
         <item itemvalue="Application.SparkTest1" />
         <item itemvalue="Application.HelloWorld" />
         <item itemvalue="Application.DemoApplication" />
         <item itemvalue="Application.BundleMatchServer" />
+        <item itemvalue="Application.AzkabanDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -523,6 +498,9 @@
       <workItem from="1604371583771" duration="62000" />
       <workItem from="1604371762809" duration="12592000" />
       <workItem from="1605583485693" duration="13945000" />
+      <workItem from="1609817849332" duration="89000" />
+      <workItem from="1609818456588" duration="217000" />
+      <workItem from="1609818695365" duration="2301000" />
     </task>
     <task id="LOCAL-00001" summary="init clickhouse">
       <created>1564194398224</created>
@@ -693,104 +671,79 @@
       <screen x="1440" y="-103" width="1920" height="1080" />
     </state>
     <state x="2051" y="165" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1440.900/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1605756312740" />
-    <state x="1864" y="99" width="1071" height="731" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600852379516">
+    <state x="2137" y="358" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog" timestamp="1609824916017">
       <screen x="1440" y="-103" width="1920" height="1080" />
     </state>
-    <state x="1864" y="99" width="1071" height="731" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1600852379516" />
-    <state x="2137" y="358" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog" timestamp="1604307265967">
-      <screen x="1440" y="-103" width="1920" height="1080" />
-    </state>
-    <state x="2137" y="358" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog/0.0.1440.900/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1604307265967" />
+    <state x="2137" y="358" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog/0.0.1440.900/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1609824916017" />
     <state x="2213" y="153" key="#com.intellij.ide.util.MemberChooser" timestamp="1602755130669">
       <screen x="1440" y="-103" width="1920" height="1080" />
     </state>
     <state x="2213" y="153" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1602755130669" />
-    <state x="2138" y="191" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1601013602944">
-      <screen x="1440" y="-103" width="1920" height="1080" />
-    </state>
-    <state x="2138" y="191" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1440.900/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1601013602944" />
-    <state x="2252" y="-80" key="CommitChangelistDialog2" timestamp="1600148606934">
-      <screen x="1440" y="-103" width="1920" height="1080" />
-    </state>
-    <state x="2252" y="-80" key="CommitChangelistDialog2/0.0.1440.900/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1600148606934" />
-    <state x="1540" y="-3" width="1720" height="880" key="DiffContextDialog" timestamp="1600142442895">
-      <screen x="1440" y="-103" width="1920" height="1080" />
-    </state>
-    <state x="1540" y="-3" width="1720" height="880" key="DiffContextDialog/0.0.1440.900/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1600142442895" />
     <state x="1999" y="101" key="GrepConsoleSettings" timestamp="1602665559014">
       <screen x="1440" y="-103" width="1920" height="1080" />
     </state>
     <state x="1999" y="101" key="GrepConsoleSettings/0.0.1440.900/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1602665559014" />
-    <state width="1876" height="374" key="GridCell.Tab.0.bottom" timestamp="1605757118142">
+    <state width="1864" height="437" key="GridCell.Tab.0.bottom" timestamp="1609825306282">
       <screen x="1440" y="-103" width="1920" height="1080" />
     </state>
     <state width="1396" height="374" key="GridCell.Tab.0.bottom/0.0.1440.838/1440.-78.1920.1055@1440.-78.1920.1055" timestamp="1605595355162" />
-    <state width="1878" height="391" key="GridCell.Tab.0.bottom/0.0.1440.900/-273.-1080.1920.1080@-273.-1080.1920.1080" timestamp="1600177084978" />
     <state width="1396" height="284" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-103.1920.1080@0.0.1440.900" timestamp="1604826311834" />
-    <state width="1876" height="374" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1605757118142" />
+    <state width="1864" height="437" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1609825306282" />
     <state width="869" height="362" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1602505810015" />
     <state width="1876" height="448" key="GridCell.Tab.0.bottom/0.23.1440.821/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1603273688952" />
     <state width="1876" height="448" key="GridCell.Tab.0.bottom/0.23.1440.821/1440.-80.1920.1057@1440.-80.1920.1057" timestamp="1603337737592" />
-    <state width="1398" height="389" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1600139304801" />
     <state width="1876" height="448" key="GridCell.Tab.0.bottom/0.23.1440.822/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1603939973620" />
-    <state width="1878" height="368" key="GridCell.Tab.0.bottom/0.23.1440.822/1440.-80.1920.1057@1440.-80.1920.1057" timestamp="1598517458515" />
     <state width="1876" height="284" key="GridCell.Tab.0.bottom/0.23.1440.823/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1604574009846" />
     <state width="1876" height="448" key="GridCell.Tab.0.bottom/0.23.1440.823/1440.-80.1920.1057@1440.-80.1920.1057" timestamp="1603095410710" />
     <state width="1876" height="497" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1604917415843" />
-    <state width="1876" height="374" key="GridCell.Tab.0.center" timestamp="1605757118140">
+    <state width="1864" height="437" key="GridCell.Tab.0.bottom/0.25.1440.875/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1609824981228" />
+    <state width="1864" height="437" key="GridCell.Tab.0.center" timestamp="1609825306278">
       <screen x="1440" y="-103" width="1920" height="1080" />
     </state>
     <state width="1396" height="374" key="GridCell.Tab.0.center/0.0.1440.838/1440.-78.1920.1055@1440.-78.1920.1055" timestamp="1605595355158" />
-    <state width="1878" height="391" key="GridCell.Tab.0.center/0.0.1440.900/-273.-1080.1920.1080@-273.-1080.1920.1080" timestamp="1600177084976" />
     <state width="1396" height="284" key="GridCell.Tab.0.center/0.0.1440.900/1440.-103.1920.1080@0.0.1440.900" timestamp="1604826311831" />
-    <state width="1876" height="374" key="GridCell.Tab.0.center/0.0.1440.900/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1605757118140" />
+    <state width="1864" height="437" key="GridCell.Tab.0.center/0.0.1440.900/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1609825306278" />
     <state width="869" height="362" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1602505810013" />
     <state width="1876" height="448" key="GridCell.Tab.0.center/0.23.1440.821/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1603273688949" />
     <state width="1876" height="448" key="GridCell.Tab.0.center/0.23.1440.821/1440.-80.1920.1057@1440.-80.1920.1057" timestamp="1603337737579" />
-    <state width="1398" height="389" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1600139304799" />
     <state width="1876" height="448" key="GridCell.Tab.0.center/0.23.1440.822/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1603939973617" />
-    <state width="1878" height="368" key="GridCell.Tab.0.center/0.23.1440.822/1440.-80.1920.1057@1440.-80.1920.1057" timestamp="1598517458513" />
     <state width="1876" height="284" key="GridCell.Tab.0.center/0.23.1440.823/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1604574009842" />
     <state width="1876" height="448" key="GridCell.Tab.0.center/0.23.1440.823/1440.-80.1920.1057@1440.-80.1920.1057" timestamp="1603095410704" />
     <state width="1876" height="497" key="GridCell.Tab.0.center/0.23.1440.877/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1604917415838" />
-    <state width="1876" height="374" key="GridCell.Tab.0.left" timestamp="1605757118138">
+    <state width="1864" height="437" key="GridCell.Tab.0.center/0.25.1440.875/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1609824981226" />
+    <state width="1864" height="437" key="GridCell.Tab.0.left" timestamp="1609825306276">
       <screen x="1440" y="-103" width="1920" height="1080" />
     </state>
     <state width="1396" height="374" key="GridCell.Tab.0.left/0.0.1440.838/1440.-78.1920.1055@1440.-78.1920.1055" timestamp="1605595355156" />
-    <state width="1878" height="391" key="GridCell.Tab.0.left/0.0.1440.900/-273.-1080.1920.1080@-273.-1080.1920.1080" timestamp="1600177084974" />
     <state width="1396" height="284" key="GridCell.Tab.0.left/0.0.1440.900/1440.-103.1920.1080@0.0.1440.900" timestamp="1604826311829" />
-    <state width="1876" height="374" key="GridCell.Tab.0.left/0.0.1440.900/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1605757118138" />
+    <state width="1864" height="437" key="GridCell.Tab.0.left/0.0.1440.900/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1609825306276" />
     <state width="869" height="362" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1602505810012" />
     <state width="1876" height="448" key="GridCell.Tab.0.left/0.23.1440.821/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1603273688948" />
     <state width="1876" height="448" key="GridCell.Tab.0.left/0.23.1440.821/1440.-80.1920.1057@1440.-80.1920.1057" timestamp="1603337737576" />
-    <state width="1398" height="389" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1600139304797" />
     <state width="1876" height="448" key="GridCell.Tab.0.left/0.23.1440.822/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1603939973615" />
-    <state width="1878" height="368" key="GridCell.Tab.0.left/0.23.1440.822/1440.-80.1920.1057@1440.-80.1920.1057" timestamp="1598517458512" />
     <state width="1876" height="284" key="GridCell.Tab.0.left/0.23.1440.823/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1604574009840" />
     <state width="1876" height="448" key="GridCell.Tab.0.left/0.23.1440.823/1440.-80.1920.1057@1440.-80.1920.1057" timestamp="1603095410702" />
     <state width="1876" height="497" key="GridCell.Tab.0.left/0.23.1440.877/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1604917415836" />
-    <state width="1876" height="374" key="GridCell.Tab.0.right" timestamp="1605757118141">
+    <state width="1864" height="437" key="GridCell.Tab.0.left/0.25.1440.875/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1609824981224" />
+    <state width="1864" height="437" key="GridCell.Tab.0.right" timestamp="1609825306280">
       <screen x="1440" y="-103" width="1920" height="1080" />
     </state>
     <state width="1396" height="374" key="GridCell.Tab.0.right/0.0.1440.838/1440.-78.1920.1055@1440.-78.1920.1055" timestamp="1605595355160" />
-    <state width="1878" height="391" key="GridCell.Tab.0.right/0.0.1440.900/-273.-1080.1920.1080@-273.-1080.1920.1080" timestamp="1600177084977" />
     <state width="1396" height="284" key="GridCell.Tab.0.right/0.0.1440.900/1440.-103.1920.1080@0.0.1440.900" timestamp="1604826311832" />
-    <state width="1876" height="374" key="GridCell.Tab.0.right/0.0.1440.900/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1605757118141" />
+    <state width="1864" height="437" key="GridCell.Tab.0.right/0.0.1440.900/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1609825306280" />
     <state width="869" height="362" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1602505810014" />
     <state width="1876" height="448" key="GridCell.Tab.0.right/0.23.1440.821/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1603273688951" />
     <state width="1876" height="448" key="GridCell.Tab.0.right/0.23.1440.821/1440.-80.1920.1057@1440.-80.1920.1057" timestamp="1603337737582" />
-    <state width="1398" height="389" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1600139304800" />
     <state width="1876" height="448" key="GridCell.Tab.0.right/0.23.1440.822/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1603939973619" />
-    <state width="1878" height="368" key="GridCell.Tab.0.right/0.23.1440.822/1440.-80.1920.1057@1440.-80.1920.1057" timestamp="1598517458514" />
     <state width="1876" height="284" key="GridCell.Tab.0.right/0.23.1440.823/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1604574009844" />
     <state width="1876" height="448" key="GridCell.Tab.0.right/0.23.1440.823/1440.-80.1920.1057@1440.-80.1920.1057" timestamp="1603095410705" />
     <state width="1876" height="497" key="GridCell.Tab.0.right/0.23.1440.877/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1604917415841" />
+    <state width="1864" height="437" key="GridCell.Tab.0.right/0.25.1440.875/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1609824981227" />
     <state width="1396" height="462" key="GridCell.Tab.1.bottom" timestamp="1605596136411">
       <screen x="1440" y="-103" width="1920" height="1080" />
     </state>
     <state width="1396" height="462" key="GridCell.Tab.1.bottom/0.0.1440.900/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1605596136411" />
     <state width="1876" height="459" key="GridCell.Tab.1.bottom/0.23.1440.821/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1603268875881" />
-    <state width="1878" height="443" key="GridCell.Tab.1.bottom/0.23.1440.821/1440.-80.1920.1057@1440.-80.1920.1057" timestamp="1597652540592" />
     <state width="1876" height="497" key="GridCell.Tab.1.bottom/0.23.1440.822/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1603423642168" />
     <state width="1876" height="497" key="GridCell.Tab.1.bottom/0.23.1440.822/1440.-80.1920.1057@1440.-80.1920.1057" timestamp="1603423652425" />
     <state width="1876" height="497" key="GridCell.Tab.1.bottom/0.23.1440.877/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1604917415854" />
@@ -799,7 +752,6 @@
     </state>
     <state width="1396" height="462" key="GridCell.Tab.1.center/0.0.1440.900/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1605596136409" />
     <state width="1876" height="459" key="GridCell.Tab.1.center/0.23.1440.821/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1603268875878" />
-    <state width="1878" height="443" key="GridCell.Tab.1.center/0.23.1440.821/1440.-80.1920.1057@1440.-80.1920.1057" timestamp="1597652540591" />
     <state width="1876" height="497" key="GridCell.Tab.1.center/0.23.1440.822/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1603423642163" />
     <state width="1876" height="497" key="GridCell.Tab.1.center/0.23.1440.822/1440.-80.1920.1057@1440.-80.1920.1057" timestamp="1603423652422" />
     <state width="1876" height="497" key="GridCell.Tab.1.center/0.23.1440.877/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1604917415849" />
@@ -808,7 +760,6 @@
     </state>
     <state width="1396" height="462" key="GridCell.Tab.1.left/0.0.1440.900/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1605596136408" />
     <state width="1876" height="459" key="GridCell.Tab.1.left/0.23.1440.821/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1603268875876" />
-    <state width="1878" height="443" key="GridCell.Tab.1.left/0.23.1440.821/1440.-80.1920.1057@1440.-80.1920.1057" timestamp="1597652540590" />
     <state width="1876" height="497" key="GridCell.Tab.1.left/0.23.1440.822/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1603423642161" />
     <state width="1876" height="497" key="GridCell.Tab.1.left/0.23.1440.822/1440.-80.1920.1057@1440.-80.1920.1057" timestamp="1603423652420" />
     <state width="1876" height="497" key="GridCell.Tab.1.left/0.23.1440.877/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1604917415846" />
@@ -817,7 +768,6 @@
     </state>
     <state width="1396" height="462" key="GridCell.Tab.1.right/0.0.1440.900/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1605596136410" />
     <state width="1876" height="459" key="GridCell.Tab.1.right/0.23.1440.821/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1603268875879" />
-    <state width="1878" height="443" key="GridCell.Tab.1.right/0.23.1440.821/1440.-80.1920.1057@1440.-80.1920.1057" timestamp="1597652540592" />
     <state width="1876" height="497" key="GridCell.Tab.1.right/0.23.1440.822/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1603423642166" />
     <state width="1876" height="497" key="GridCell.Tab.1.right/0.23.1440.822/1440.-80.1920.1057@1440.-80.1920.1057" timestamp="1603423652423" />
     <state width="1876" height="497" key="GridCell.Tab.1.right/0.23.1440.877/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1604917415851" />
@@ -825,30 +775,25 @@
       <screen x="1440" y="-103" width="1920" height="1080" />
     </state>
     <state x="1938" y="99" key="Maven.ArtifactSearchDialog/0.0.1440.900/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1602664742067" />
-    <state x="1888" y="18" width="1440" height="823" key="SettingsEditor" timestamp="1602759696373">
+    <state x="1839" y="-70" width="1440" height="823" key="SettingsEditor" timestamp="1609825208969">
       <screen x="1440" y="-103" width="1920" height="1080" />
     </state>
-    <state x="1888" y="18" key="SettingsEditor/0.0.1440.900/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1602759696373" />
+    <state x="1839" y="-70" key="SettingsEditor/0.0.1440.900/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1609825208969" />
     <state x="0" y="23" width="1440" height="823" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1602490183147" />
     <state x="1888" y="18" key="SettingsEditor/0.23.1440.877/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1602759619709" />
-    <state x="2000" y="177" key="Vcs.Push.Dialog.v2" timestamp="1598515904646">
-      <screen x="1440" y="-103" width="1920" height="1080" />
-    </state>
-    <state x="2000" y="177" key="Vcs.Push.Dialog.v2/0.0.1440.900/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1598515904646" />
+    <state x="1888" y="18" key="SettingsEditor/0.25.1440.875/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1609819267901" />
     <state x="1539" y="-4" width="1720" height="880" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1602667387234">
       <screen x="1440" y="-103" width="1920" height="1080" />
     </state>
-    <state x="1539" y="-4" width="1720" height="880" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1440.900/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1601013371213" />
     <state x="1539" y="-4" width="1720" height="880" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1440.877/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1602667387234" />
     <state x="1908" y="91" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1602666754984">
       <screen x="1440" y="-103" width="1920" height="1080" />
     </state>
     <state x="1908" y="91" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1440.900/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1602666754984" />
-    <state x="2080" y="194" width="782" height="550" key="find.popup" timestamp="1603265703060">
+    <state x="2080" y="194" width="782" height="668" key="find.popup" timestamp="1609819121472">
       <screen x="1440" y="-103" width="1920" height="1080" />
     </state>
-    <state x="2080" y="194" width="782" height="550" key="find.popup/0.0.1440.900/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1603265703060" />
-    <state x="2080" y="194" width="782" height="550" key="find.popup/0.23.1440.877/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1598514376859" />
+    <state x="2080" y="194" width="782" height="668" key="find.popup/0.0.1440.900/1440.-103.1920.1080@1440.-103.1920.1080" timestamp="1609819121472" />
     <state x="1557" y="-71" key="new project wizard" timestamp="1605583548100">
       <screen x="1440" y="-103" width="1920" height="1080" />
     </state>
@@ -948,32 +893,32 @@
           <option name="timeStamp" value="317" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/../../flink/flink-connectors/flink-connector-cassandra/target/flink-connector-cassandra_2.11-1.8.0.jar!/com/datastax/driver/core/CodecRegistry.class</url>
+          <url>jar://$USER_HOME$/flink/flink-connectors/flink-connector-cassandra/target/flink-connector-cassandra_2.11-1.8.0.jar!/com/datastax/driver/core/CodecRegistry.class</url>
           <line>221</line>
           <option name="timeStamp" value="323" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/../../flink/flink-connectors/flink-connector-cassandra/target/flink-connector-cassandra_2.11-1.8.0.jar!/com/datastax/driver/core/CodecRegistry.class</url>
+          <url>jar://$USER_HOME$/flink/flink-connectors/flink-connector-cassandra/target/flink-connector-cassandra_2.11-1.8.0.jar!/com/datastax/driver/core/CodecRegistry.class</url>
           <line>303</line>
           <option name="timeStamp" value="324" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/../../flink/flink-connectors/flink-connector-cassandra/target/flink-connector-cassandra_2.11-1.8.0.jar!/com/datastax/driver/core/CodecRegistry.class</url>
+          <url>jar://$USER_HOME$/flink/flink-connectors/flink-connector-cassandra/target/flink-connector-cassandra_2.11-1.8.0.jar!/com/datastax/driver/core/CodecRegistry.class</url>
           <line>312</line>
           <option name="timeStamp" value="325" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/../../flink/flink-connectors/flink-connector-cassandra/target/flink-connector-cassandra_2.11-1.8.0.jar!/com/datastax/driver/core/CodecRegistry.class</url>
+          <url>jar://$USER_HOME$/flink/flink-connectors/flink-connector-cassandra/target/flink-connector-cassandra_2.11-1.8.0.jar!/com/datastax/driver/core/CodecRegistry.class</url>
           <line>332</line>
           <option name="timeStamp" value="326" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/../../flink/flink-connectors/flink-connector-cassandra/target/flink-connector-cassandra_2.11-1.8.0.jar!/com/datastax/driver/core/CodecRegistry.class</url>
+          <url>jar://$USER_HOME$/flink/flink-connectors/flink-connector-cassandra/target/flink-connector-cassandra_2.11-1.8.0.jar!/com/datastax/driver/core/CodecRegistry.class</url>
           <line>333</line>
           <option name="timeStamp" value="327" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/../../flink/flink-connectors/flink-connector-cassandra/target/flink-connector-cassandra_2.11-1.8.0.jar!/com/datastax/driver/core/CodecRegistry.class</url>
+          <url>jar://$USER_HOME$/flink/flink-connectors/flink-connector-cassandra/target/flink-connector-cassandra_2.11-1.8.0.jar!/com/datastax/driver/core/CodecRegistry.class</url>
           <line>337</line>
           <option name="timeStamp" value="328" />
         </line-breakpoint>
@@ -1078,92 +1023,92 @@
           <option name="timeStamp" value="487" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/../../flink-clickhouse-sink/target/flink-clickhouse-sink-1.0.0-SNAPSHOT.jar!/ru/ivi/opensource/flinkclickhousesink/ClickhouseSink.class</url>
+          <url>jar://$USER_HOME$/flink-clickhouse-sink/target/flink-clickhouse-sink-1.0.0-SNAPSHOT.jar!/ru/ivi/opensource/flinkclickhousesink/ClickhouseSink.class</url>
           <line>24</line>
           <option name="timeStamp" value="488" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/../../flink-clickhouse-sink/target/flink-clickhouse-sink-1.0.0-SNAPSHOT.jar!/ru/ivi/opensource/flinkclickhousesink/ClickhouseSink.class</url>
+          <url>jar://$USER_HOME$/flink-clickhouse-sink/target/flink-clickhouse-sink-1.0.0-SNAPSHOT.jar!/ru/ivi/opensource/flinkclickhousesink/ClickhouseSink.class</url>
           <line>37</line>
           <option name="timeStamp" value="489" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/../../flink-clickhouse-sink/target/flink-clickhouse-sink-1.0.0-SNAPSHOT.jar!/ru/ivi/opensource/flinkclickhousesink/ClickhouseSink.class</url>
+          <url>jar://$USER_HOME$/flink-clickhouse-sink/target/flink-clickhouse-sink-1.0.0-SNAPSHOT.jar!/ru/ivi/opensource/flinkclickhousesink/ClickhouseSink.class</url>
           <line>42</line>
           <option name="timeStamp" value="494" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/../../flink-clickhouse-sink/target/flink-clickhouse-sink-1.0.0-SNAPSHOT.jar!/ru/ivi/opensource/flinkclickhousesink/ClickhouseSink.class</url>
+          <url>jar://$USER_HOME$/flink-clickhouse-sink/target/flink-clickhouse-sink-1.0.0-SNAPSHOT.jar!/ru/ivi/opensource/flinkclickhousesink/ClickhouseSink.class</url>
           <line>44</line>
           <option name="timeStamp" value="495" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/../../flink-clickhouse-sink/target/flink-clickhouse-sink-1.0.0-SNAPSHOT.jar!/ru/ivi/opensource/flinkclickhousesink/applied/ClickhouseSinkBuffer.class</url>
+          <url>jar://$USER_HOME$/flink-clickhouse-sink/target/flink-clickhouse-sink-1.0.0-SNAPSHOT.jar!/ru/ivi/opensource/flinkclickhousesink/applied/ClickhouseSinkBuffer.class</url>
           <line>42</line>
           <option name="timeStamp" value="497" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/../../flink-clickhouse-sink/target/flink-clickhouse-sink-1.0.0-SNAPSHOT.jar!/ru/ivi/opensource/flinkclickhousesink/applied/ClickhouseSinkBuffer.class</url>
+          <url>jar://$USER_HOME$/flink-clickhouse-sink/target/flink-clickhouse-sink-1.0.0-SNAPSHOT.jar!/ru/ivi/opensource/flinkclickhousesink/applied/ClickhouseSinkBuffer.class</url>
           <line>41</line>
           <option name="timeStamp" value="501" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/../../flink-clickhouse-sink/target/flink-clickhouse-sink-1.0.0-SNAPSHOT.jar!/ru/ivi/opensource/flinkclickhousesink/applied/ClickhouseSinkBuffer.class</url>
+          <url>jar://$USER_HOME$/flink-clickhouse-sink/target/flink-clickhouse-sink-1.0.0-SNAPSHOT.jar!/ru/ivi/opensource/flinkclickhousesink/applied/ClickhouseSinkBuffer.class</url>
           <line>40</line>
           <option name="timeStamp" value="502" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/../../flink-clickhouse-sink/target/flink-clickhouse-sink-1.0.0-SNAPSHOT.jar!/ru/ivi/opensource/flinkclickhousesink/applied/ClickhouseSinkBuffer.class</url>
+          <url>jar://$USER_HOME$/flink-clickhouse-sink/target/flink-clickhouse-sink-1.0.0-SNAPSHOT.jar!/ru/ivi/opensource/flinkclickhousesink/applied/ClickhouseSinkBuffer.class</url>
           <line>53</line>
           <option name="timeStamp" value="503" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/../../flink-clickhouse-sink/target/flink-clickhouse-sink-1.0.0-SNAPSHOT.jar!/ru/ivi/opensource/flinkclickhousesink/applied/ClickhouseSinkBuffer.class</url>
+          <url>jar://$USER_HOME$/flink-clickhouse-sink/target/flink-clickhouse-sink-1.0.0-SNAPSHOT.jar!/ru/ivi/opensource/flinkclickhousesink/applied/ClickhouseSinkBuffer.class</url>
           <line>46</line>
           <option name="timeStamp" value="504" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/../../flink-clickhouse-sink/target/flink-clickhouse-sink-1.0.0-SNAPSHOT.jar!/ru/ivi/opensource/flinkclickhousesink/applied/ClickhouseSinkBuffer.class</url>
+          <url>jar://$USER_HOME$/flink-clickhouse-sink/target/flink-clickhouse-sink-1.0.0-SNAPSHOT.jar!/ru/ivi/opensource/flinkclickhousesink/applied/ClickhouseSinkBuffer.class</url>
           <line>47</line>
           <option name="timeStamp" value="505" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/../../flink-clickhouse-sink/target/flink-clickhouse-sink-1.0.0-SNAPSHOT.jar!/ru/ivi/opensource/flinkclickhousesink/applied/ClickhouseSinkBuffer.class</url>
+          <url>jar://$USER_HOME$/flink-clickhouse-sink/target/flink-clickhouse-sink-1.0.0-SNAPSHOT.jar!/ru/ivi/opensource/flinkclickhousesink/applied/ClickhouseSinkBuffer.class</url>
           <line>55</line>
           <option name="timeStamp" value="506" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/../../flink-clickhouse-sink/target/flink-clickhouse-sink-1.0.0-SNAPSHOT.jar!/ru/ivi/opensource/flinkclickhousesink/applied/ClickhouseSinkBuffer.class</url>
+          <url>jar://$USER_HOME$/flink-clickhouse-sink/target/flink-clickhouse-sink-1.0.0-SNAPSHOT.jar!/ru/ivi/opensource/flinkclickhousesink/applied/ClickhouseSinkBuffer.class</url>
           <line>57</line>
           <option name="timeStamp" value="507" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/../../flink-clickhouse-sink/target/flink-clickhouse-sink-1.0.0-SNAPSHOT.jar!/ru/ivi/opensource/flinkclickhousesink/applied/ClickhouseSinkBuffer.class</url>
+          <url>jar://$USER_HOME$/flink-clickhouse-sink/target/flink-clickhouse-sink-1.0.0-SNAPSHOT.jar!/ru/ivi/opensource/flinkclickhousesink/applied/ClickhouseSinkBuffer.class</url>
           <line>61</line>
           <option name="timeStamp" value="508" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/../../flink-clickhouse-sink/target/flink-clickhouse-sink-1.0.0-SNAPSHOT.jar!/ru/ivi/opensource/flinkclickhousesink/applied/ClickhouseSinkBuffer.class</url>
+          <url>jar://$USER_HOME$/flink-clickhouse-sink/target/flink-clickhouse-sink-1.0.0-SNAPSHOT.jar!/ru/ivi/opensource/flinkclickhousesink/applied/ClickhouseSinkBuffer.class</url>
           <line>54</line>
           <option name="timeStamp" value="510" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/../../flink-clickhouse-sink/target/flink-clickhouse-sink-1.0.0-SNAPSHOT.jar!/ru/ivi/opensource/flinkclickhousesink/applied/ClickhouseWriter.class</url>
+          <url>jar://$USER_HOME$/flink-clickhouse-sink/target/flink-clickhouse-sink-1.0.0-SNAPSHOT.jar!/ru/ivi/opensource/flinkclickhousesink/applied/ClickhouseWriter.class</url>
           <line>84</line>
           <option name="timeStamp" value="511" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/../../flink-clickhouse-sink/target/flink-clickhouse-sink-1.0.0-SNAPSHOT.jar!/ru/ivi/opensource/flinkclickhousesink/applied/ClickhouseWriter.class</url>
+          <url>jar://$USER_HOME$/flink-clickhouse-sink/target/flink-clickhouse-sink-1.0.0-SNAPSHOT.jar!/ru/ivi/opensource/flinkclickhousesink/applied/ClickhouseWriter.class</url>
           <line>88</line>
           <option name="timeStamp" value="512" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/../../flink-clickhouse-sink/target/flink-clickhouse-sink-1.0.0-SNAPSHOT.jar!/ru/ivi/opensource/flinkclickhousesink/applied/ClickhouseWriter.class</url>
+          <url>jar://$USER_HOME$/flink-clickhouse-sink/target/flink-clickhouse-sink-1.0.0-SNAPSHOT.jar!/ru/ivi/opensource/flinkclickhousesink/applied/ClickhouseWriter.class</url>
           <line>86</line>
           <option name="timeStamp" value="513" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/../../flink-clickhouse-sink/target/flink-clickhouse-sink-1.0.0-SNAPSHOT.jar!/ru/ivi/opensource/flinkclickhousesink/applied/ClickhouseSinkBuffer.class</url>
+          <url>jar://$USER_HOME$/flink-clickhouse-sink/target/flink-clickhouse-sink-1.0.0-SNAPSHOT.jar!/ru/ivi/opensource/flinkclickhousesink/applied/ClickhouseSinkBuffer.class</url>
           <line>56</line>
           <option name="timeStamp" value="514" />
         </line-breakpoint>

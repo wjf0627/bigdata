@@ -1,10 +1,6 @@
 package com.jinfeng.spark.example.example
 
-import java.net.URI
-
 import com.alibaba.fastjson.{JSON, JSONObject}
-import org.apache.hadoop.conf.Configuration
-import org.apache.hadoop.fs.{FileSystem, FileUtil, Path}
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.catalyst.ScalaReflection
 import org.apache.spark.sql.functions._
@@ -26,6 +22,11 @@ import scala.collection.mutable
  */
 
 case class User(dev_id: String, tag: String, data: mutable.Map[String, String]) extends java.io.Serializable
+
+abstract class Base extends Serializable with Product
+
+case class Tracking3S(device_id: String, device_type: String, platform: String, package_name: String, update_date: String, country: String)
+  extends Base
 
 object SparkDemo {
   /*
