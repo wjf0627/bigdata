@@ -1,0 +1,3 @@
+type=command
+dependencies=job_0,job_1
+command=sh -x job.sh '2'
