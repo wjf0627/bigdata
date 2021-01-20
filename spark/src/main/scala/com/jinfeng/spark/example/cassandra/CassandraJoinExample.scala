@@ -10,8 +10,6 @@ import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.expressions.UserDefinedFunction
 import org.apache.spark.sql.functions._
 
-import scala.collection.mutable
-
 /**
   * @package: com.jinfeng.spark.example.cassandra
   * @author: wangjf
@@ -68,11 +66,7 @@ class CassandraJoinExample extends Serializable {
       //  df.saveToCassandra("dmp_realtime_service", "dmp_user_features", SomeColumns("device_id", "target_offer_list" overwrite))
 
 
-      val options = new mutable.HashMap[String, String]()
-      options.put("keyspace", "dmp_realtime_service")
-      options.put("table", "dmp_user_features")
-      val ds = spark.read.format("org.apache.spark.sql.cassandra").options(options).load
-      ds.createOrReplaceTempView("device_target")
+
 
       //  options = new mutable.HashMap[String, String]()
       //  options.put("keyspace", "test")
